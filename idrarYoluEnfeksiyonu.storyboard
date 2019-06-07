@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dif-f3-lro">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Palatino.ttc">
+            <string>Palatino-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--AkutOtitisExterna-->
+        <scene sceneID="rmb-pO-hsx">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Otitis Eksterna (Dış Kulak İlthabı)" storyboardName="AkutOtitisExterna" id="QcZ-AT-7w1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dzb-jc-vBH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3246" y="608"/>
+        </scene>
+        <!--AkutPankreatit-->
+        <scene sceneID="MRu-IA-tyG">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Pankreatit" storyboardName="AkutPankreatit" id="CIV-au-n5S" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0mO-a3-vo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3228" y="660"/>
+        </scene>
+        <!--AlerjikKonjonktivit-->
+        <scene sceneID="pjh-ei-MaO">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Alerjik Konjonktivit" storyboardName="AlerjikKonjonktivit" id="X00-Ju-syk" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DLZ-CX-Za7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3251" y="704"/>
+        </scene>
+        <!--AlerjikKontaktDermatit-->
+        <scene sceneID="ZKS-J7-GJg">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Alerjik Kontakt Dermatit (Egzama)" storyboardName="AlerjikKontaktDermatit" id="2V6-JI-hlw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4OM-B1-5HA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3277" y="754"/>
+        </scene>
+        <!--AcilKontrasepsiyon-->
+        <scene sceneID="pOD-6P-hFK">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Acil Kontrasepsiyon (Gebelikten Korunma)" storyboardName="AcilKontrasepsiyon" id="P9o-fW-LSt" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d7F-aO-Ti3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3256" y="801"/>
+        </scene>
+        <!--AtipikPnomoni-->
+        <scene sceneID="yyN-Lv-Nfb">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Atipik Pnömoni (Atypical Pneumonia)" storyboardName="AtipikPnomoni" id="jh4-Nd-aKR" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iEj-KG-lWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3229" y="844"/>
+        </scene>
+        <!--Pnomoni-->
+        <scene sceneID="ui8-QG-Ym9">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Pnömoni (Zatüre)(Pneumonia)" storyboardName="Pnomoni" id="fZR-Rw-nfw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jlm-bN-qGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3196" y="890"/>
+        </scene>
+        <!--CocukPnomoni-->
+        <scene sceneID="xEi-c7-tJQ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Pnömoni (Çoçuk) Zatüre" storyboardName="CocukPnomoni" id="fJm-lb-9uZ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W7X-Jt-iWQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3232" y="938"/>
+        </scene>
+        <!--AkneRozasea-->
+        <scene sceneID="F3s-ee-1IQ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akne Rozasea (Gül Hastalığı)" storyboardName="AkneRozasea" id="LjV-jp-3Bv" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XBY-Hn-4Fd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3223" y="981"/>
+        </scene>
+        <!--AlerjikRinit-->
+        <scene sceneID="CfJ-oW-PdS">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Alerjik Rinit (Saman Nezlesi)" storyboardName="AlerjikRinit" id="EdO-vf-rE8" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qGK-nB-11a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3207" y="1026"/>
+        </scene>
+        <!--AftozStomatit-->
+        <scene sceneID="NcY-vU-vy4">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Aftöz Stomatit ( Aft )" storyboardName="AftozStomatit" id="UOm-Pq-mwH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fQl-Nw-ct8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3226" y="1068"/>
+        </scene>
+        <!--AkutSistit-->
+        <scene sceneID="lb0-EW-Oat">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Sistit (A.Mesane iltihabı)" storyboardName="AkutSistit" id="kxJ-uI-vna" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k1z-Vc-K1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3202" y="1111"/>
+        </scene>
+        <!--AkutStElevasyon-->
+        <scene sceneID="O0F-Xa-iaC">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut St Elevasyonlu MI" storyboardName="AkutStElevasyon" id="tMC-yF-TXN" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p7z-sx-CaB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3240" y="1150"/>
+        </scene>
+        <!--AkutSinuzit-->
+        <scene sceneID="hrr-G1-qCG">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Sinüzit" storyboardName="AkutSinuzit" id="FF5-xP-O8B" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qMw-J8-btj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3211" y="1193"/>
+        </scene>
+        <!--AkutUrtiker-->
+        <scene sceneID="EJT-Rp-JaG">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Ürtiker (Kurdeşen)" storyboardName="AkutUrtiker" id="V6f-hN-86x" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nbi-Lr-MMC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3209" y="1235"/>
+        </scene>
+        <!--AkneVulgaris-->
+        <scene sceneID="Ai8-6z-yoh">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akne Vulgaris (Sivilce)" storyboardName="AkneVulgaris" id="ycY-h2-wLh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rgX-nX-WH5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3216" y="1280"/>
+        </scene>
+        <!--Astim-->
+        <scene sceneID="Dsx-1l-eng">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Astım" storyboardName="Astim" id="NhP-4y-Wt4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1JG-JS-UZb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3179" y="1321"/>
+        </scene>
+        <!--BakteriyelKonjuktivit-->
+        <scene sceneID="VkS-ei-Dvp">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Bakteriyel Viral Konjonktivit" storyboardName="BakteriyelKonjuktivit" id="bMR-Fw-PG3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cdW-g5-Wbo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3261" y="1363"/>
+        </scene>
+        <!--BakteriyelTonsillit-->
+        <scene sceneID="liJ-7D-NQD">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Bakteriyel Tonsillit (Bademcik İltihabı)" storyboardName="BakteriyelTonsillit" id="3jb-xO-mb1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QdI-z8-ocp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3247" y="1404"/>
+        </scene>
+        <!--BakteriyelVajinozis-->
+        <scene sceneID="etB-Vf-E12">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Bakteriyel Vajinozis (Vajinit)" storyboardName="BakteriyelVajinozis" id="jBk-Qk-0N7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UHR-bj-xxl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3254" y="1445"/>
+        </scene>
+        <!--BenignProstatHiperplazisi-->
+        <scene sceneID="Fl3-NB-OKb">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Benign Prostat Hiperplazisi (BPH)" storyboardName="BenignProstatHiperplazisi" id="umC-ol-BjL" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1v7-oU-pVd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3292" y="1525"/>
+        </scene>
+        <!--Bogmaca-->
+        <scene sceneID="YZ7-i6-8f3">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Boğmaca Enfeksiyonu" storyboardName="Bogmaca" id="A4L-Za-dy3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O4S-lQ-fYx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3197" y="1609"/>
+        </scene>
+        <!--BocekSokmasi-->
+        <scene sceneID="6qc-zt-IkL">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Böcek Sokması (insect bite)" storyboardName="BocekSokmasi" id="bsM-4x-WTn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BPZ-9d-d0j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3226" y="1654"/>
+        </scene>
+        <!--Buson-->
+        <scene sceneID="yhC-21-jB6">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Buşon ( Kulak Kiri )" storyboardName="Buson" id="uq8-l7-dOv" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="We2-n3-UjR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3182" y="1699"/>
+        </scene>
+        <!--CocuktaSolunumSikintisi-->
+        <scene sceneID="phU-C7-ltg">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Çocukta Solunum Sıkıntısı" storyboardName="CocuktaSolunumSikintisi" id="rFf-aI-Zes" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ydW-dD-AP1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3289" y="1740"/>
+        </scene>
+        <!--DemirEksikligiAnemisi-->
+        <scene sceneID="vD9-yj-ue3">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Demir Eksikliği Anemisi" storyboardName="DemirEksikligiAnemisi" id="c75-8Y-j7t" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bez-ol-FM7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3273" y="1781"/>
+        </scene>
+        <!--DerinVenTrombozu-->
+        <scene sceneID="QGg-Jd-8et">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Derin Ven Trombozu (DVT)" storyboardName="DerinVenTrombozu" id="GcH-Ba-IGz" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V2R-10-bWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3250" y="1821"/>
+        </scene>
+        <!--DiabetesMellitus-->
+        <scene sceneID="PiL-2T-NKN">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Diabetes Mellitus (Şeker Hastalığı)" storyboardName="DiabetesMellitus" id="caR-Ws-MCc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BMF-yQ-UPI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3238" y="1861"/>
+        </scene>
+        <!--DiabetKetoasidoz-->
+        <scene sceneID="cdP-hw-KOa">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Diyabetik Ketoasidoz (DKA)" storyboardName="DiabetKetoasidoz" id="S0k-Sm-oZE" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VHK-7e-fxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3243" y="1901"/>
+        </scene>
+        <!--DiaperDermetit-->
+        <scene sceneID="E1L-74-h8I">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Diaper Dermatit ( Pişik Çocuk Bezi Egzaması )" storyboardName="DiaperDermetit" id="udk-C3-kMJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nZi-pb-H9K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3230" y="1940"/>
+        </scene>
+        <!--EnfksiyozOzefajit-->
+        <scene sceneID="EYi-el-uih">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Enfeksiyöz Özofajit (Yemekborusu İltihabı )" storyboardName="EnfksiyozOzefajit" id="y0f-7c-rTd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2RC-QJ-XDF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3241" y="1985"/>
+        </scene>
+        <!--EpidermiOrsit-->
+        <scene sceneID="dTg-dR-q9T">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Epidemi Orşit (Testis İltihabı)" storyboardName="EpidermiOrsit" id="k76-Pu-FX5" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nvz-S8-6ef" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3221" y="2025"/>
+        </scene>
+        <!--Erizipel-->
+        <scene sceneID="M7P-IU-gMm">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Erizipel ( Yılancık ) Enfeksiyonu" storyboardName="Erizipel" id="NUX-6y-DAf" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HcJ-VC-PxJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3188" y="2065"/>
+        </scene>
+        <!--EsansiyelTremor-->
+        <scene sceneID="zZQ-CN-v0U">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Esansiyel Tremor (El Titremesi)" storyboardName="EsansiyelTremor" id="5lu-J2-oTM" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b4n-Sr-eJ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3235" y="2109"/>
+        </scene>
+        <!--Fibromiyalji-->
+        <scene sceneID="Ipg-o0-ts4">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Fibromiyalji Sendromu (FMS)" storyboardName="Fibromiyalji" id="wLU-7b-Xfo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Js-zt-V7T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3212" y="2153"/>
+        </scene>
+        <!--GastroozefagialRefluGER-->
+        <scene sceneID="FnQ-iK-Gj1">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Gastroözofageal Reflü (GÖRH)" storyboardName="GastroozefagialRefluGER" id="tkN-XH-fPP" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="75z-J0-cUe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3285" y="2230"/>
+        </scene>
+        <!--GebeKlamidya-->
+        <scene sceneID="BpN-29-yAT">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Gebelerde Klamidya (Chlamydia ,Klamidyoz)" storyboardName="GebeKlamidya" id="EgS-BO-Aer" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8LM-Rt-HJG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3224" y="2271"/>
+        </scene>
+        <!--GebeTrkikomoniazis-->
+        <scene sceneID="zei-5I-wGt">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Gebelikte Trikomonas(Trichomonas Vajiniti,Trikomoniasis)" storyboardName="GebeTrkikomoniazis" id="2rd-cr-WRt" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jBl-OG-mbH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3257" y="2311"/>
+        </scene>
+        <!--GebeVulvovaginalCandidiasis-->
+        <scene sceneID="PEc-9T-sYX">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Gebelerde Vulvovaginal Candidiasis (Vajinal Mantar Enfeksiyon Vajinal Kandidiyazis VVC)" storyboardName="GebeVulvovaginalCandidiasis" id="Ql6-q3-PZ4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BCP-xT-qZp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3306" y="2354"/>
+        </scene>
+        <!--GenitalHerpes-->
+        <scene sceneID="TZY-42-Hmr">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Genital Herpes (Genital Uçuk)" storyboardName="GenitalHerpes" id="CmJ-A4-wwe" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0zD-or-yq2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3226" y="2393"/>
+        </scene>
+        <!--GerilimTipiBasAgrisi-->
+        <scene sceneID="fzW-mH-2TV">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Gerilim Tipi Baş Ağrısı (Tension Headache)" storyboardName="GerilimTipiBasAgrisi" id="yl6-Nf-Rg1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QCw-JN-B5H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3260" y="2429"/>
+        </scene>
+        <!--Giardiazis-->
+        <scene sceneID="ZGe-OW-gJg">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Giardia Bağırsak Parazit Enfeksiyonu (Giardiazis)" storyboardName="Giardiazis" id="L34-4r-3vY" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hKr-04-zsk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3200" y="2466"/>
+        </scene>
+        <!--Gonartroz-->
+        <scene sceneID="Zx4-98-uKG">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Diz Kireçlenmesi (Gonartroz)" storyboardName="Gonartroz" id="ltj-Cy-SLh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a7R-Wu-8C8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3200" y="2501"/>
+        </scene>
+        <!--GonokoksitUretrit-->
+        <scene sceneID="ZE3-Sy-wD5">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Gonokoksik Üretrit (Üretra İltihabı)" storyboardName="GonokoksitUretrit" id="tZj-8f-cQK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W9x-AA-Vza" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3247" y="2538"/>
+        </scene>
+        <!--Gonore-->
+        <scene sceneID="rkb-t7-VC8">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Gonore (Bel Soğukluğu)" storyboardName="Gonore" id="FmO-ai-Axz" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="27L-Ol-jBV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3188" y="2578"/>
+        </scene>
+        <!--Granulomainguinde-->
+        <scene sceneID="Ih3-T2-Vr5">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Granuloma inguinale (donovanoz)" storyboardName="Granulomainguinde" id="bvS-Ij-tC7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="heD-ct-qSS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3251" y="2616"/>
+        </scene>
+        <!--GunesYanigi-->
+        <scene sceneID="7zy-ma-Xsx">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Güneş Yanığı" storyboardName="GunesYanigi" id="8WN-Es-4BC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vEH-Cd-Cu7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3214" y="2656"/>
+        </scene>
+        <!--Hemoraid-->
+        <scene sceneID="8aK-vC-vhu">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Hemoroid (Basur)" storyboardName="Hemoraid" id="sMd-fm-Qn6" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E2V-ab-agy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3198" y="2695"/>
+        </scene>
+        <!--HerpesSimplex-->
+        <scene sceneID="Sap-5M-ZZv">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Herpes Simplex (Uçuk)" storyboardName="HerpesSimplex" id="Web-qc-35t" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rue-Xz-OSF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3231" y="2734"/>
+        </scene>
+        <!--Hiperhidroz-->
+        <scene sceneID="mOP-SC-frk">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Hiperhidroz (Aşırı Terleme)" storyboardName="Hiperhidroz" id="qfr-Gc-tyJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0uu-yS-q0a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3214" y="2775"/>
+        </scene>
+        <!--Hiperlipidemi-->
+        <scene sceneID="cQr-Z4-SYm">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Hiperlipidemi (Kolesterol Yüksekliği)" storyboardName="Hiperlipidemi" id="vhk-aP-ubN" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g9d-SP-Wxh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3217" y="2813"/>
+        </scene>
+        <!--Hipertansiyon-->
+        <scene sceneID="fzV-e1-1Sc">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Hipertansiyon (Yüksek Tansiyon HT)" storyboardName="Hipertansiyon" id="7d9-ea-MQ7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z1E-cy-OY4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3224" y="2851"/>
+        </scene>
+        <!--Hipertiroidi-->
+        <scene sceneID="VXy-bn-UMc">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Hipertiroidi (Hipertiroidsizim)" storyboardName="Hipertiroidi" id="udo-cL-TzB" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J2o-s4-TGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3207" y="2893"/>
+        </scene>
+        <!--Hordeolum-->
+        <scene sceneID="lQC-Yk-jg5">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Hordeolum (Arpacık)" storyboardName="Hordeolum" id="KmV-gJ-pVG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EGA-OS-RmE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3209" y="2934"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xyh-vu-ksu">
+            <objects>
+                <viewController id="rl6-0n-86B" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kmt-Rk-kl8"/>
+                        <viewControllerLayoutGuide type="bottom" id="bC8-P2-Bln"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YRc-3y-tNR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Riq-bz-30V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3818" y="3144"/>
+        </scene>
+        <!--Gale-->
+        <scene sceneID="Eje-AY-OOC">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Uyuz Hastalığı(Scabies,Gale,Gidişik)" storyboardName="Gale" id="rjs-e9-Bgf" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F9d-yk-52H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3168" y="2190"/>
+        </scene>
+        <!--Blefarit-->
+        <scene sceneID="v6J-bI-Cjm">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Blefarit (Göz Kapağı İltihabı)" storyboardName="Blefarit" id="tDz-05-txs" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1k3-U5-9Q6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3183" y="1568"/>
+        </scene>
+        <!--BenignParoksismalPozisyonelVertigo-->
+        <scene sceneID="39e-03-0Kb">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Benign Paroksismal Pozisyonel Vertigo (BPPV)" storyboardName="BenignParoksismalPozisyonelVertigo" id="uAN-HW-1yG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XTo-ty-lRV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3351" y="1484"/>
+        </scene>
+        <!--ACİLLER-->
+        <scene sceneID="I50-gz-5zD">
+            <objects>
+                <tableViewController id="e0y-Lm-ny3" customClass="Aciller" customModule="Rec_eteA_7_24" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="7kP-Co-0lp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eiN-vL-1I8">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eiN-vL-1I8" id="bBP-2f-tjf">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="e0y-Lm-ny3" id="ALd-Le-OaC"/>
+                            <outlet property="delegate" destination="e0y-Lm-ny3" id="bS2-Jt-tMB"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="ACİLLER" image="ambulenceicon.png" id="Fc8-Ba-gcx"/>
+                    <navigationItem key="navigationItem" id="hrA-Ot-91F">
+                        <barButtonItem key="backBarButtonItem" title="GERİ" id="HkE-rs-Mfh"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Xm-Z9-7EY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3418" y="-405"/>
+        </scene>
+        <!--Akut_Areata-->
+        <scene sceneID="AcD-0j-YhZ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Areata ( Şaç Kıran )" storyboardName="Akut_Areata" id="Ecb-3D-hTD" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="f5g-K6-xnb"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zdt-2S-zYe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3217" y="59"/>
+        </scene>
+        <!--POLİKLİNİK-->
+        <scene sceneID="nx3-to-vo3">
+            <objects>
+                <tableViewController id="e3m-3z-JKG" customClass="Poliklinik" customModule="Rec_eteA_7_24" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="bQj-XJ-P2b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="F9R-zA-U9Z">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F9R-zA-U9Z" id="8Yk-BG-z46">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="e3m-3z-JKG" id="23x-B3-AHW"/>
+                            <outlet property="delegate" destination="e3m-3z-JKG" id="ith-v8-JTi"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="POLİKLİNİK" image="poliklinikvector.png" id="PZ3-zI-evN"/>
+                    <navigationItem key="navigationItem" id="vcb-c4-kDs">
+                        <barButtonItem key="backBarButtonItem" title="GERİ" id="aSc-5Y-xZX"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qu4-ot-LXw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4178" y="-345"/>
+        </scene>
+        <!--Y.BAKIM-->
+        <scene sceneID="Guc-Fn-r7x">
+            <objects>
+                <tableViewController id="ETJ-VC-TGr" customClass="YogunBakim" customModule="Rec_eteA_7_24" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="4rH-Ad-s2J">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wId-Kv-gxh">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wId-Kv-gxh" id="Rc0-f4-ZHo">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ETJ-VC-TGr" id="F8S-7C-sf5"/>
+                            <outlet property="delegate" destination="ETJ-VC-TGr" id="bJL-7c-TES"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Y.BAKIM" image="yogunbakimvector.png" id="4vc-ih-mQm"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dRK-8W-4kY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4950" y="-405"/>
+        </scene>
+        <!--ANASAYFA-->
+        <scene sceneID="3ph-Ep-nAg">
+            <objects>
+                <viewController id="aOE-Do-ecf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pfA-JX-CCe"/>
+                        <viewControllerLayoutGuide type="bottom" id="tiD-je-Tdb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="boV-98-QcF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundshome.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="STM-TF-tp5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="551"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6kb-B4-j9y">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="551"/>
+                                <subviews>
+                                    <visualEffectView opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fow-L7-dLY">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="551"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="khQ-eP-jhf">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="551"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sTU-Ab-syS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="551"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n8R-yG-HY1">
+                                                            <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+                                                            <subviews>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SDS-g7-1Q9" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                                    <rect key="frame" x="8" y="126" width="304" height="60"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roz-PY-LDu" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="304" height="60"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="60" id="BG1-j5-hjt"/>
+                                                                            </constraints>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                    <real key="value" value="12"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                                    <real key="value" value="2"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                            <connections>
+                                                                                <segue destination="e0y-Lm-ny3" kind="show" id="sKx-EK-UW6"/>
+                                                                            </connections>
+                                                                        </button>
+                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="acillericonbtn.png" translatesAutoresizingMaskIntoConstraints="NO" id="kKm-X3-24y">
+                                                                            <rect key="frame" x="8" y="8" width="44" height="44"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="width" secondItem="kKm-X3-24y" secondAttribute="height" multiplier="1:1" id="rer-iv-0Mk"/>
+                                                                                <constraint firstAttribute="height" constant="44" id="vAe-18-cSf"/>
+                                                                            </constraints>
+                                                                        </imageView>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACİLLER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWd-HX-ZEj">
+                                                                            <rect key="frame" x="60" y="8" width="236" height="44"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="44" id="Ez6-xf-a4X"/>
+                                                                                <constraint firstAttribute="width" secondItem="tWd-HX-ZEj" secondAttribute="height" multiplier="59:11" id="HGK-Mm-Sh2"/>
+                                                                            </constraints>
+                                                                            <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="24"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="1" alpha="0.4962275256849315" colorSpace="calibratedWhite"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="60" id="41g-LL-BRg"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="roz-PY-LDu" secondAttribute="bottom" id="4UM-a5-mfT"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="tWd-HX-ZEj" secondAttribute="bottom" constant="8" id="9C5-27-2aR"/>
+                                                                        <constraint firstItem="tWd-HX-ZEj" firstAttribute="leading" secondItem="kKm-X3-24y" secondAttribute="trailing" constant="8" id="9VQ-1D-2KY"/>
+                                                                        <constraint firstItem="tWd-HX-ZEj" firstAttribute="top" secondItem="SDS-g7-1Q9" secondAttribute="top" constant="8" id="GZA-pB-ar2"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="tWd-HX-ZEj" secondAttribute="trailing" constant="8" id="JIH-9C-OMb"/>
+                                                                        <constraint firstItem="roz-PY-LDu" firstAttribute="leading" secondItem="SDS-g7-1Q9" secondAttribute="leading" id="avC-Lj-iHf"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="kKm-X3-24y" secondAttribute="bottom" constant="8" id="blZ-oN-ddk"/>
+                                                                        <constraint firstItem="roz-PY-LDu" firstAttribute="top" secondItem="SDS-g7-1Q9" secondAttribute="top" id="l2k-fV-Xwc"/>
+                                                                        <constraint firstItem="kKm-X3-24y" firstAttribute="leading" secondItem="SDS-g7-1Q9" secondAttribute="leading" constant="8" id="sN1-aS-KSA"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="roz-PY-LDu" secondAttribute="trailing" id="uhL-mt-RId"/>
+                                                                        <constraint firstItem="kKm-X3-24y" firstAttribute="top" secondItem="SDS-g7-1Q9" secondAttribute="top" constant="8" id="x7x-EM-GHJ"/>
+                                                                    </constraints>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="12"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" white="1" alpha="0.49871575342465752" colorSpace="calibratedWhite"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                            <real key="value" value="2"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                </view>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DQK-KV-sUF" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                                    <rect key="frame" x="8" y="206" width="304" height="60"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKF-3G-CDg" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="304" height="60"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="60" id="uxU-9T-nkt"/>
+                                                                            </constraints>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                    <real key="value" value="12"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                                    <real key="value" value="2"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                            <connections>
+                                                                                <segue destination="e3m-3z-JKG" kind="show" id="XSo-e7-feR"/>
+                                                                            </connections>
+                                                                        </button>
+                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poliklinikicon1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ibT-tP-Rbx">
+                                                                            <rect key="frame" x="8" y="8" width="44" height="44"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="44" id="JPW-hw-flP"/>
+                                                                                <constraint firstAttribute="width" secondItem="ibT-tP-Rbx" secondAttribute="height" multiplier="1:1" id="Jp8-Sh-vne"/>
+                                                                            </constraints>
+                                                                        </imageView>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POLİKLİNİKLER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYu-Wh-Zpg">
+                                                                            <rect key="frame" x="60" y="8" width="236" height="44"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="44" id="9yu-st-iYf"/>
+                                                                                <constraint firstAttribute="width" secondItem="tYu-Wh-Zpg" secondAttribute="height" multiplier="59:11" id="dNU-U4-HXC"/>
+                                                                            </constraints>
+                                                                            <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="24"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="1" alpha="0.49534460616438358" colorSpace="calibratedWhite"/>
+                                                                    <constraints>
+                                                                        <constraint firstItem="tYu-Wh-Zpg" firstAttribute="top" secondItem="ibT-tP-Rbx" secondAttribute="top" id="8rX-Xh-iUW"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="MKF-3G-CDg" secondAttribute="bottom" id="CVC-T1-Cxd"/>
+                                                                        <constraint firstItem="ibT-tP-Rbx" firstAttribute="centerY" secondItem="MKF-3G-CDg" secondAttribute="centerY" id="Kfh-MO-40J"/>
+                                                                        <constraint firstItem="tYu-Wh-Zpg" firstAttribute="width" secondItem="tYu-Wh-Zpg" secondAttribute="height" multiplier="59:11" id="RcQ-cR-hFU"/>
+                                                                        <constraint firstItem="MKF-3G-CDg" firstAttribute="leading" secondItem="DQK-KV-sUF" secondAttribute="leading" id="UJK-up-5wI"/>
+                                                                        <constraint firstItem="MKF-3G-CDg" firstAttribute="top" secondItem="DQK-KV-sUF" secondAttribute="top" id="YyN-RP-fd7"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="MKF-3G-CDg" secondAttribute="trailing" id="doQ-0z-Shr"/>
+                                                                        <constraint firstItem="tYu-Wh-Zpg" firstAttribute="leading" secondItem="ibT-tP-Rbx" secondAttribute="trailing" constant="8" symbolic="YES" id="fn2-aa-Ivm"/>
+                                                                        <constraint firstItem="ibT-tP-Rbx" firstAttribute="leading" secondItem="DQK-KV-sUF" secondAttribute="leadingMargin" id="g4m-o4-Qs5"/>
+                                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tYu-Wh-Zpg" secondAttribute="trailing" constant="8" id="l1C-eI-owJ"/>
+                                                                        <constraint firstAttribute="height" constant="60" id="qFt-dm-9SK"/>
+                                                                        <constraint firstItem="ibT-tP-Rbx" firstAttribute="width" secondItem="ibT-tP-Rbx" secondAttribute="height" multiplier="1:1" id="r3K-of-cQF"/>
+                                                                    </constraints>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="12"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                            <real key="value" value="2"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                </view>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oL2-DR-Pod" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                                    <rect key="frame" x="8" y="286" width="304" height="60"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0x9-Wn-qz1" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="304" height="60"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="60" id="Jwl-Xi-2p0"/>
+                                                                            </constraints>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                    <real key="value" value="12"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                                    <real key="value" value="2"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                            <connections>
+                                                                                <segue destination="ETJ-VC-TGr" kind="show" id="Lp5-BC-SEx"/>
+                                                                            </connections>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOĞUN BAKIM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WI-VC-Bf0">
+                                                                            <rect key="frame" x="60" y="8" width="236" height="44"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="44" id="6bP-yh-I1s"/>
+                                                                                <constraint firstAttribute="width" secondItem="9WI-VC-Bf0" secondAttribute="height" multiplier="59:11" id="HqH-yd-nJw"/>
+                                                                            </constraints>
+                                                                            <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="24"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yogunbakim_300x300.png" translatesAutoresizingMaskIntoConstraints="NO" id="WKK-h1-iHw">
+                                                                            <rect key="frame" x="8" y="8" width="44" height="44"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="44" id="OU8-Oy-srd"/>
+                                                                                <constraint firstAttribute="width" secondItem="WKK-h1-iHw" secondAttribute="height" multiplier="1:1" id="fDi-Ja-fFy"/>
+                                                                            </constraints>
+                                                                        </imageView>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="1" alpha="0.50470890410958902" colorSpace="calibratedWhite"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="bottom" secondItem="0x9-Wn-qz1" secondAttribute="bottom" id="2wS-D2-h0D"/>
+                                                                        <constraint firstItem="WKK-h1-iHw" firstAttribute="leading" secondItem="oL2-DR-Pod" secondAttribute="leadingMargin" id="Dme-Ku-uFK"/>
+                                                                        <constraint firstItem="9WI-VC-Bf0" firstAttribute="top" secondItem="WKK-h1-iHw" secondAttribute="top" id="DzV-Z8-J30"/>
+                                                                        <constraint firstAttribute="height" constant="60" id="GqO-uF-CE8"/>
+                                                                        <constraint firstItem="WKK-h1-iHw" firstAttribute="width" secondItem="WKK-h1-iHw" secondAttribute="height" multiplier="1:1" id="HNA-MV-RoO"/>
+                                                                        <constraint firstItem="0x9-Wn-qz1" firstAttribute="leading" secondItem="oL2-DR-Pod" secondAttribute="leading" id="JAe-TS-7hu"/>
+                                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9WI-VC-Bf0" secondAttribute="trailing" constant="8" id="SUu-xf-dwa"/>
+                                                                        <constraint firstItem="0x9-Wn-qz1" firstAttribute="top" secondItem="oL2-DR-Pod" secondAttribute="top" id="WFt-ZK-8hR"/>
+                                                                        <constraint firstItem="WKK-h1-iHw" firstAttribute="width" secondItem="WKK-h1-iHw" secondAttribute="height" multiplier="1:1" id="aEQ-Ky-faw"/>
+                                                                        <constraint firstItem="WKK-h1-iHw" firstAttribute="centerY" secondItem="0x9-Wn-qz1" secondAttribute="centerY" id="blc-Qk-fRq"/>
+                                                                        <constraint firstItem="9WI-VC-Bf0" firstAttribute="width" secondItem="9WI-VC-Bf0" secondAttribute="height" multiplier="59:11" id="h1P-Gk-sZ1"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="0x9-Wn-qz1" secondAttribute="trailing" id="ksD-8V-2eO"/>
+                                                                        <constraint firstItem="9WI-VC-Bf0" firstAttribute="width" secondItem="9WI-VC-Bf0" secondAttribute="height" multiplier="59:11" id="nFM-7p-rEx"/>
+                                                                        <constraint firstItem="9WI-VC-Bf0" firstAttribute="leading" secondItem="WKK-h1-iHw" secondAttribute="trailing" constant="8" symbolic="YES" id="wlB-62-Iyw"/>
+                                                                    </constraints>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="12"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                            <real key="value" value="2"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                </view>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TET-63-bTN" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                                    <rect key="frame" x="8" y="366" width="304" height="60"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4C-ky-8ST" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="304" height="60"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="60" id="YsV-5Q-qy7"/>
+                                                                            </constraints>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                    <real key="value" value="12"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                                    <real key="value" value="2"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                            <connections>
+                                                                                <segue destination="Ag5-2s-WZP" kind="show" id="B1q-DJ-dnL"/>
+                                                                            </connections>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TANI ARA (GENEL)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZU-Iv-Kwi">
+                                                                            <rect key="frame" x="60" y="8" width="236" height="44"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="width" secondItem="KZU-Iv-Kwi" secondAttribute="height" multiplier="59:11" id="1o4-aX-4Lu"/>
+                                                                                <constraint firstAttribute="height" constant="44" id="pwF-fF-kYD"/>
+                                                                            </constraints>
+                                                                            <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="24"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="taniaravector.png" translatesAutoresizingMaskIntoConstraints="NO" id="bLt-bM-oVT">
+                                                                            <rect key="frame" x="8" y="8" width="44" height="44"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="44" id="Uzn-ZK-blF"/>
+                                                                                <constraint firstAttribute="width" secondItem="bLt-bM-oVT" secondAttribute="height" multiplier="1:1" id="W22-qb-m0H"/>
+                                                                            </constraints>
+                                                                        </imageView>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="1" alpha="0.49668236301369861" colorSpace="calibratedWhite"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="trailing" secondItem="d4C-ky-8ST" secondAttribute="trailing" id="66v-tz-LO7"/>
+                                                                        <constraint firstItem="KZU-Iv-Kwi" firstAttribute="width" secondItem="KZU-Iv-Kwi" secondAttribute="height" multiplier="59:11" id="BM9-cY-0Go"/>
+                                                                        <constraint firstItem="KZU-Iv-Kwi" firstAttribute="top" secondItem="bLt-bM-oVT" secondAttribute="top" id="EZs-2i-LAl"/>
+                                                                        <constraint firstItem="bLt-bM-oVT" firstAttribute="width" secondItem="bLt-bM-oVT" secondAttribute="height" multiplier="1:1" id="Ksx-sT-b1Q"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="d4C-ky-8ST" secondAttribute="bottom" id="UnB-q7-MIE"/>
+                                                                        <constraint firstAttribute="height" constant="60" id="YEy-C2-HEo"/>
+                                                                        <constraint firstItem="d4C-ky-8ST" firstAttribute="leading" secondItem="TET-63-bTN" secondAttribute="leading" id="d3V-Pe-DOL"/>
+                                                                        <constraint firstItem="KZU-Iv-Kwi" firstAttribute="width" secondItem="KZU-Iv-Kwi" secondAttribute="height" multiplier="59:11" id="db0-sZ-jNP"/>
+                                                                        <constraint firstItem="KZU-Iv-Kwi" firstAttribute="leading" secondItem="bLt-bM-oVT" secondAttribute="trailing" constant="8" symbolic="YES" id="ejY-Ak-oUj"/>
+                                                                        <constraint firstItem="bLt-bM-oVT" firstAttribute="leading" secondItem="TET-63-bTN" secondAttribute="leadingMargin" id="k9M-96-K7f"/>
+                                                                        <constraint firstItem="bLt-bM-oVT" firstAttribute="width" secondItem="bLt-bM-oVT" secondAttribute="height" multiplier="1:1" id="kKF-Vj-syY"/>
+                                                                        <constraint firstItem="bLt-bM-oVT" firstAttribute="centerY" secondItem="d4C-ky-8ST" secondAttribute="centerY" id="lJw-qL-Gcp"/>
+                                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KZU-Iv-Kwi" secondAttribute="trailing" constant="8" id="uP5-A4-o8x"/>
+                                                                        <constraint firstItem="d4C-ky-8ST" firstAttribute="top" secondItem="TET-63-bTN" secondAttribute="top" id="unr-FS-o5c"/>
+                                                                    </constraints>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="12"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                            <real key="value" value="2"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                </view>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h4Y-yf-tsd" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                                    <rect key="frame" x="8" y="446" width="304" height="60"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtA-pU-CrC" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="304" height="60"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="60" id="6Vz-fI-86x"/>
+                                                                            </constraints>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                    <real key="value" value="12"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                                    <real key="value" value="2"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                            <connections>
+                                                                                <segue destination="z2d-QQ-Us7" kind="show" id="PLp-dD-UDI"/>
+                                                                            </connections>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ETKEN M. ARA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgi-Ch-TFy">
+                                                                            <rect key="frame" x="60" y="8" width="236" height="44"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="width" secondItem="mgi-Ch-TFy" secondAttribute="height" multiplier="59:11" id="UzF-KV-HwF"/>
+                                                                                <constraint firstAttribute="height" constant="44" id="g76-ML-M6B"/>
+                                                                            </constraints>
+                                                                            <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="24"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="taniaraicon.ico" translatesAutoresizingMaskIntoConstraints="NO" id="Yeh-Pl-NKg">
+                                                                            <rect key="frame" x="8" y="8" width="44" height="44"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="width" secondItem="Yeh-Pl-NKg" secondAttribute="height" multiplier="1:1" id="Bfs-eS-vyC"/>
+                                                                                <constraint firstAttribute="height" constant="44" id="GqL-Gy-M7S"/>
+                                                                            </constraints>
+                                                                        </imageView>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="60" id="7HO-O9-xCG"/>
+                                                                        <constraint firstItem="vtA-pU-CrC" firstAttribute="leading" secondItem="h4Y-yf-tsd" secondAttribute="leading" id="G2N-82-t28"/>
+                                                                        <constraint firstItem="mgi-Ch-TFy" firstAttribute="top" secondItem="Yeh-Pl-NKg" secondAttribute="top" id="IX2-E0-dtd"/>
+                                                                        <constraint firstItem="Yeh-Pl-NKg" firstAttribute="width" secondItem="Yeh-Pl-NKg" secondAttribute="height" multiplier="1:1" id="SIM-4x-Thd"/>
+                                                                        <constraint firstItem="Yeh-Pl-NKg" firstAttribute="centerY" secondItem="vtA-pU-CrC" secondAttribute="centerY" id="SZK-Lv-VmZ"/>
+                                                                        <constraint firstItem="mgi-Ch-TFy" firstAttribute="width" secondItem="mgi-Ch-TFy" secondAttribute="height" multiplier="59:11" id="T8M-1s-RdK"/>
+                                                                        <constraint firstItem="mgi-Ch-TFy" firstAttribute="leading" secondItem="Yeh-Pl-NKg" secondAttribute="trailing" constant="8" symbolic="YES" id="VdK-WL-kZc"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="vtA-pU-CrC" secondAttribute="trailing" id="WhY-g4-BJi"/>
+                                                                        <constraint firstItem="Yeh-Pl-NKg" firstAttribute="leading" secondItem="h4Y-yf-tsd" secondAttribute="leadingMargin" id="dV5-BU-2SO"/>
+                                                                        <constraint firstItem="Yeh-Pl-NKg" firstAttribute="width" secondItem="Yeh-Pl-NKg" secondAttribute="height" multiplier="1:1" id="g2R-3N-Shn"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="vtA-pU-CrC" secondAttribute="bottom" id="hky-2j-0lt"/>
+                                                                        <constraint firstItem="mgi-Ch-TFy" firstAttribute="width" secondItem="mgi-Ch-TFy" secondAttribute="height" multiplier="59:11" id="iWe-zV-Lpw"/>
+                                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mgi-Ch-TFy" secondAttribute="trailing" constant="8" id="sJ9-sg-SdA"/>
+                                                                        <constraint firstItem="vtA-pU-CrC" firstAttribute="top" secondItem="h4Y-yf-tsd" secondAttribute="top" id="v7v-eA-lVO"/>
+                                                                    </constraints>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="12"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                            <real key="value" value="2"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                </view>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eCF-3C-mDo" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                                    <rect key="frame" x="8" y="526" width="304" height="60"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rre-Pq-0um" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="304" height="60"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="60" id="zHe-tz-Wz9"/>
+                                                                            </constraints>
+                                                                            <userDefinedRuntimeAttributes>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                    <real key="value" value="12"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                                    <real key="value" value="2"/>
+                                                                                </userDefinedRuntimeAttribute>
+                                                                            </userDefinedRuntimeAttributes>
+                                                                            <connections>
+                                                                                <segue destination="erT-j2-ywM" kind="show" id="g3T-5Z-gGs"/>
+                                                                            </connections>
+                                                                        </button>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YASAL UYARI !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dfy-Bm-2rS">
+                                                                            <rect key="frame" x="60" y="8" width="236" height="44"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="44" id="eP9-Df-14C"/>
+                                                                            </constraints>
+                                                                            <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="24"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yasaluyariicon.png" translatesAutoresizingMaskIntoConstraints="NO" id="az9-Hd-ZVM">
+                                                                            <rect key="frame" x="8" y="8" width="44" height="44"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="width" secondItem="az9-Hd-ZVM" secondAttribute="height" multiplier="1:1" id="12A-Kk-D1W"/>
+                                                                                <constraint firstAttribute="height" constant="44" id="olC-JS-a9p"/>
+                                                                            </constraints>
+                                                                        </imageView>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="bottom" secondItem="az9-Hd-ZVM" secondAttribute="bottom" constant="8" id="0hk-fl-iJJ"/>
+                                                                        <constraint firstAttribute="height" constant="60" id="0y7-cM-ZYk"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="Dfy-Bm-2rS" secondAttribute="bottom" constant="8" id="Cfp-fi-fiQ"/>
+                                                                        <constraint firstItem="Dfy-Bm-2rS" firstAttribute="leading" secondItem="az9-Hd-ZVM" secondAttribute="trailing" constant="8" id="CoY-Av-OYP"/>
+                                                                        <constraint firstItem="Rre-Pq-0um" firstAttribute="top" secondItem="eCF-3C-mDo" secondAttribute="top" id="RP8-i6-Zpi"/>
+                                                                        <constraint firstItem="Dfy-Bm-2rS" firstAttribute="top" secondItem="eCF-3C-mDo" secondAttribute="top" constant="8" id="fMW-SR-Rua"/>
+                                                                        <constraint firstItem="az9-Hd-ZVM" firstAttribute="top" secondItem="eCF-3C-mDo" secondAttribute="top" constant="8" id="hWr-Y2-nbB"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="Rre-Pq-0um" secondAttribute="bottom" id="i2B-ol-VJV"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="Dfy-Bm-2rS" secondAttribute="trailing" constant="8" id="jTS-e2-ufM"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="Rre-Pq-0um" secondAttribute="trailing" id="prX-fJ-2Hn"/>
+                                                                        <constraint firstItem="Rre-Pq-0um" firstAttribute="leading" secondItem="eCF-3C-mDo" secondAttribute="leading" id="rru-OU-pIo"/>
+                                                                        <constraint firstItem="az9-Hd-ZVM" firstAttribute="leading" secondItem="eCF-3C-mDo" secondAttribute="leading" constant="8" id="uxF-Ds-04I"/>
+                                                                    </constraints>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="12"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                            <real key="value" value="2"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                </view>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                            <constraints>
+                                                                <constraint firstItem="oL2-DR-Pod" firstAttribute="leading" secondItem="n8R-yG-HY1" secondAttribute="leading" constant="8" id="2CH-cz-mIJ"/>
+                                                                <constraint firstAttribute="trailing" secondItem="DQK-KV-sUF" secondAttribute="trailing" constant="8" id="4CB-Ic-z0a"/>
+                                                                <constraint firstItem="TET-63-bTN" firstAttribute="leading" secondItem="n8R-yG-HY1" secondAttribute="leading" constant="8" id="6gS-zS-12J"/>
+                                                                <constraint firstAttribute="trailing" secondItem="eCF-3C-mDo" secondAttribute="trailing" constant="8" id="6hv-mq-ve0"/>
+                                                                <constraint firstItem="eCF-3C-mDo" firstAttribute="top" secondItem="h4Y-yf-tsd" secondAttribute="bottom" constant="20" id="8jw-eW-uSw"/>
+                                                                <constraint firstAttribute="trailing" secondItem="oL2-DR-Pod" secondAttribute="trailing" constant="8" id="FXU-O2-Ryf"/>
+                                                                <constraint firstAttribute="height" constant="600" id="NMS-jf-gZp"/>
+                                                                <constraint firstItem="TET-63-bTN" firstAttribute="top" secondItem="oL2-DR-Pod" secondAttribute="bottom" constant="20" id="NPk-M2-LwT"/>
+                                                                <constraint firstAttribute="trailing" secondItem="TET-63-bTN" secondAttribute="trailing" constant="8" id="OOn-6P-He7"/>
+                                                                <constraint firstAttribute="trailing" secondItem="SDS-g7-1Q9" secondAttribute="trailing" constant="8" id="SdT-2P-yxX"/>
+                                                                <constraint firstItem="h4Y-yf-tsd" firstAttribute="top" secondItem="TET-63-bTN" secondAttribute="bottom" constant="20" id="V79-Ab-QVA"/>
+                                                                <constraint firstItem="eCF-3C-mDo" firstAttribute="leading" secondItem="n8R-yG-HY1" secondAttribute="leading" constant="8" id="a65-Lt-OaL"/>
+                                                                <constraint firstItem="DQK-KV-sUF" firstAttribute="top" secondItem="SDS-g7-1Q9" secondAttribute="bottom" constant="20" id="b6P-Nu-HAm"/>
+                                                                <constraint firstAttribute="trailing" secondItem="h4Y-yf-tsd" secondAttribute="trailing" constant="8" id="eIu-FK-rVs"/>
+                                                                <constraint firstItem="oL2-DR-Pod" firstAttribute="top" secondItem="DQK-KV-sUF" secondAttribute="bottom" constant="20" id="hqj-Cd-V8l"/>
+                                                                <constraint firstItem="SDS-g7-1Q9" firstAttribute="top" secondItem="n8R-yG-HY1" secondAttribute="top" constant="126" id="qLm-7c-76X"/>
+                                                                <constraint firstItem="DQK-KV-sUF" firstAttribute="leading" secondItem="n8R-yG-HY1" secondAttribute="leading" constant="8" id="sgh-AY-aiF"/>
+                                                                <constraint firstItem="h4Y-yf-tsd" firstAttribute="leading" secondItem="n8R-yG-HY1" secondAttribute="leading" constant="8" id="xTM-s7-9xr"/>
+                                                                <constraint firstItem="SDS-g7-1Q9" firstAttribute="leading" secondItem="n8R-yG-HY1" secondAttribute="leading" constant="8" id="xv1-N3-sUK"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="n8R-yG-HY1" firstAttribute="top" secondItem="sTU-Ab-syS" secondAttribute="top" id="Hoa-tV-lx9"/>
+                                                        <constraint firstAttribute="bottom" secondItem="n8R-yG-HY1" secondAttribute="bottom" id="SpB-DK-eC1"/>
+                                                        <constraint firstItem="n8R-yG-HY1" firstAttribute="leading" secondItem="sTU-Ab-syS" secondAttribute="leading" id="T45-yQ-ZI1"/>
+                                                        <constraint firstAttribute="trailing" secondItem="n8R-yG-HY1" secondAttribute="trailing" id="krz-mr-QmU"/>
+                                                    </constraints>
+                                                </scrollView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="sTU-Ab-syS" firstAttribute="leading" secondItem="khQ-eP-jhf" secondAttribute="leading" id="Pj2-0p-bFQ"/>
+                                                <constraint firstAttribute="bottom" secondItem="sTU-Ab-syS" secondAttribute="bottom" id="ZNG-ap-K9B"/>
+                                                <constraint firstAttribute="trailing" secondItem="sTU-Ab-syS" secondAttribute="trailing" id="a8c-a2-nQz"/>
+                                                <constraint firstItem="sTU-Ab-syS" firstAttribute="top" secondItem="khQ-eP-jhf" secondAttribute="top" id="mki-tk-v8d"/>
+                                            </constraints>
+                                        </view>
+                                        <blurEffect style="light"/>
+                                    </visualEffectView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="fow-L7-dLY" secondAttribute="trailing" id="0Qg-t4-MSg"/>
+                                    <constraint firstItem="fow-L7-dLY" firstAttribute="top" secondItem="6kb-B4-j9y" secondAttribute="top" id="2xH-Ln-p0b"/>
+                                    <constraint firstAttribute="bottom" secondItem="fow-L7-dLY" secondAttribute="bottom" id="GvD-4i-1nd"/>
+                                    <constraint firstItem="fow-L7-dLY" firstAttribute="leading" secondItem="6kb-B4-j9y" secondAttribute="leading" id="mKd-Y6-d8z"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="STM-TF-tp5" firstAttribute="leading" secondItem="boV-98-QcF" secondAttribute="leading" id="MR7-Ed-3lZ"/>
+                            <constraint firstItem="tiD-je-Tdb" firstAttribute="top" secondItem="6kb-B4-j9y" secondAttribute="bottom" id="cFf-UZ-14V"/>
+                            <constraint firstItem="6kb-B4-j9y" firstAttribute="leading" secondItem="boV-98-QcF" secondAttribute="leading" id="cTk-gh-wb6"/>
+                            <constraint firstAttribute="trailing" secondItem="6kb-B4-j9y" secondAttribute="trailing" id="dLI-U9-xAt"/>
+                            <constraint firstItem="tiD-je-Tdb" firstAttribute="top" secondItem="STM-TF-tp5" secondAttribute="bottom" id="hmV-0f-HNz"/>
+                            <constraint firstItem="6kb-B4-j9y" firstAttribute="top" secondItem="boV-98-QcF" secondAttribute="top" id="m0a-vB-IIQ"/>
+                            <constraint firstAttribute="trailing" secondItem="STM-TF-tp5" secondAttribute="trailing" id="n2V-xF-VSn"/>
+                            <constraint firstItem="n8R-yG-HY1" firstAttribute="width" secondItem="boV-98-QcF" secondAttribute="width" id="njz-2l-XrX"/>
+                            <constraint firstItem="STM-TF-tp5" firstAttribute="top" secondItem="boV-98-QcF" secondAttribute="top" id="y1a-oW-ATR"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ANASAYFA" image="anasayfavector.png" id="NRk-2P-xLY"/>
+                    <navigationItem key="navigationItem" id="VOB-yE-uEi">
+                        <barButtonItem key="backBarButtonItem" title="GERİ" id="fTr-Oc-AOF"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qWd-rm-6TN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5903" y="-1465"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hyK-aG-QOo">
+            <objects>
+                <navigationController id="dif-f3-lro" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pGA-mh-P5B">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="STb-kd-K3d" kind="relationship" relationship="rootViewController" id="1c2-qP-gRD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aQ6-CS-Hr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4018" y="-1540"/>
+        </scene>
+        <!--REÇETE A  7/24  🕒 -->
+        <scene sceneID="YWX-tk-nlg">
+            <objects>
+                <tabBarController id="STb-kd-K3d" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="REÇETE A  7/24  🕒 " id="cOj-LS-HgI">
+                        <barButtonItem key="backBarButtonItem" title="GERİ" id="TEp-5g-mbs"/>
+                    </navigationItem>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="os1-Cy-LIp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="aOE-Do-ecf" kind="relationship" relationship="viewControllers" id="wti-6p-PSz"/>
+                        <segue destination="e0y-Lm-ny3" kind="relationship" relationship="viewControllers" id="UvS-1X-P1m"/>
+                        <segue destination="e3m-3z-JKG" kind="relationship" relationship="viewControllers" id="3BK-5O-crt"/>
+                        <segue destination="ETJ-VC-TGr" kind="relationship" relationship="viewControllers" id="E7k-cs-iDz"/>
+                        <segue destination="Ag5-2s-WZP" kind="relationship" relationship="viewControllers" id="yrR-Yc-lBz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hbn-pB-TH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4911" y="-1540"/>
+        </scene>
+        <!--ETKEN ARA-->
+        <scene sceneID="x3G-Zn-sw4">
+            <objects>
+                <tableViewController id="z2d-QQ-Us7" customClass="Etkenmaddeara" customModule="Rec_eteA_7_24" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="yjv-xV-ZpR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="AdR-gW-1Oa">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AdR-gW-1Oa" id="eQL-Ln-j1Z">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="z2d-QQ-Us7" id="Ylb-xc-dBY"/>
+                            <outlet property="delegate" destination="z2d-QQ-Us7" id="sW4-dv-TL4"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="ETKEN ARA" image="taniaravector.png" id="8My-Fi-wBN"/>
+                    <navigationItem key="navigationItem" id="6EK-gg-bWw">
+                        <barButtonItem key="backBarButtonItem" title="GERİ" id="B82-Fa-rNq"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1VG-cJ-rKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6473" y="-344"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5fZ-EV-Rin">
+            <objects>
+                <viewController id="erT-j2-ywM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1sY-D7-CMR"/>
+                        <viewControllerLayoutGuide type="bottom" id="cVr-33-uA4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K2E-Vu-6Dt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LzE-SV-NWR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7337" y="-405"/>
+        </scene>
+        <!--TANI ARA-->
+        <scene sceneID="dkh-3w-bBq">
+            <objects>
+                <tableViewController id="Ag5-2s-WZP" customClass="TaniAra" customModule="Rec_eteA_7_24" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="cok-th-1Ms">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ZZF-8P-ydF">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZZF-8P-ydF" id="Uor-ft-ZPn">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Ag5-2s-WZP" id="LsG-Yb-3xm"/>
+                            <outlet property="delegate" destination="Ag5-2s-WZP" id="e9m-Mc-AmS"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="TANI ARA" image="taniaravector.png" id="1LE-Uo-5mI"/>
+                    <navigationItem key="navigationItem" id="70F-Ts-7In">
+                        <barButtonItem key="backBarButtonItem" title="GERİ" id="Lgs-cL-aQe"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdC-O7-hCX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5696" y="-405"/>
+        </scene>
+        <!--Akut_Bakteriyel_Prostatit-->
+        <scene sceneID="G5R-3N-mvd">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Bakteriyel Prostatit" storyboardName="Akut_Bakteriyel_Prostatit" id="am4-U2-DpF" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yIO-Ib-NK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3291" y="103"/>
+        </scene>
+        <!--AkutBronsit-->
+        <scene sceneID="NJe-38-yiP">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Bronşiolit" storyboardName="AkutBronsit" id="dc2-pd-epZ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="aoI-Wa-BCF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3kr-f8-FzB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3211" y="149"/>
+        </scene>
+        <!--Amipli_Dizanteri-->
+        <scene sceneID="aYq-rh-u9s">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Amipli Dizanteri" storyboardName="Amipli_Dizanteri" id="nRC-Fq-2lZ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="M1Q-Wp-ecT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1QX-Jj-dzt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3238" y="199"/>
+        </scene>
+        <!--Anafilaksi-->
+        <scene sceneID="eXo-VZ-BWE">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Anafilaksi" storyboardName="Anaflaksi" referencedIdentifier="Anafilaksi" id="24L-QT-5SC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zuo-rL-isA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3203" y="14"/>
+        </scene>
+        <!--CocukHastaliklari-->
+        <scene sceneID="7RF-Kw-lVJ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Çocuk Hastalıkları" storyboardName="CocukHastaliklari" id="rQ5-vk-VA9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TGA-aE-7jX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4133" y="58"/>
+        </scene>
+        <!--Dermatoloji-->
+        <scene sceneID="NaQ-LT-cwK">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Dermatoloji" storyboardName="Dermatoloji" id="p7d-hE-0eZ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Od6-bs-BrT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4097" y="103"/>
+        </scene>
+        <!--Endokronoloji-->
+        <scene sceneID="97U-KU-ian">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Endokronoloji" storyboardName="Endokronoloji" id="8R1-Vg-Du5" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dze-4u-z5B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4109" y="149"/>
+        </scene>
+        <!--Fizik Tedavi-->
+        <scene sceneID="88C-ca-AN2">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Fizik Tedavi" storyboardName="Fizik Tedavi" id="cIk-nm-3Fa" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I9R-zm-w8D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4102" y="199"/>
+        </scene>
+        <!--Gastroenteroloji-->
+        <scene sceneID="84U-hz-c9p">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Gastroenteroloji" storyboardName="Gastroenteroloji" id="zjC-mI-qOK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UtZ-lA-Lfj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4128" y="251"/>
+        </scene>
+        <!--GenelCerrahi-->
+        <scene sceneID="TW0-4E-zZv">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Genel Cerrahi" storyboardName="GenelCerrahi" id="L4j-eJ-Tyb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0R1-rD-G8M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4110" y="301"/>
+        </scene>
+        <!--GogusHastaliklari-->
+        <scene sceneID="ljQ-i4-RtV">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Göğüş Hastalıkları" storyboardName="GogusHastaliklari" id="xfb-Xn-Lje" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YlJ-0n-A4t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4136" y="345"/>
+        </scene>
+        <!--GozHastaliklari-->
+        <scene sceneID="Z7J-bw-Yh1">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Göz Hastalıkları" storyboardName="GozHastaliklari" id="Ibl-a2-POe" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PHA-ZV-U7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4122" y="390"/>
+        </scene>
+        <!--Hematoloji-->
+        <scene sceneID="Y5h-90-pyr">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Hematoloji" storyboardName="Hematoloji" id="Gb9-4g-uhs" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n6N-ls-KZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4093" y="436"/>
+        </scene>
+        <!--KadinHastaliklari-->
+        <scene sceneID="ayS-8g-O3v">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Kadın Hastalıkları" storyboardName="KadinHastaliklari" id="a8u-Bw-NwI" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c5a-E6-Aha" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4132" y="483"/>
+        </scene>
+        <!--KalpDamarCerrahisi-->
+        <scene sceneID="KCk-pk-IRr">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Kalp Damar Cerrahisi" storyboardName="KalpDamarCerrahisi" id="ASi-8q-R7Z" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cxj-WJ-cEh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4148" y="529"/>
+        </scene>
+        <!--Kardiyoloji-->
+        <scene sceneID="miO-QM-TAN">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Kardiyoloji" storyboardName="Kardiyoloji" id="kXn-rS-vJq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GSE-Cu-4xg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4095" y="580"/>
+        </scene>
+        <!--KulakBurunBogaz-->
+        <scene sceneID="EMh-6d-rBN">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Kulak Burun Boğaz" storyboardName="KulakBurunBogaz" id="WYu-JR-sEY" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pIb-aW-hRg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4133" y="628"/>
+        </scene>
+        <!--Noroloji-->
+        <scene sceneID="Rwc-YU-Re3">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Nöroloji" storyboardName="Noroloji" id="VMA-hG-X88" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zvq-vv-Lp0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4076" y="675"/>
+        </scene>
+        <!--Uroloji-->
+        <scene sceneID="Rrs-It-QPV">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Üroloji" storyboardName="Uroloji" id="Qhs-T5-7lM" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Otm-z6-kzb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4069" y="725"/>
+        </scene>
+        <!--Akut Enfekte Rinit-->
+        <scene sceneID="Ogt-U4-LR0">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Enfekte Rinit" storyboardName="Akut Enfekte Rinit" id="pu2-Bl-LWo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fAb-d9-fQt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3247" y="245"/>
+        </scene>
+        <!--Akut Farenjit-->
+        <scene sceneID="hS7-II-Etr">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Farenjit" storyboardName="Akut Farenjit" id="V1c-VC-CLn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lai-5H-LBz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3219" y="293"/>
+        </scene>
+        <!--Atrial_Fibrilasyon-->
+        <scene sceneID="DoC-7R-zvh">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Atrial Fibrilasyon ( AF )" storyboardName="Atrial_Fibrilasyon" id="dUF-Y9-gCA" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v63-eC-vKj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3243" y="336"/>
+        </scene>
+        <!--AkutGastrit-->
+        <scene sceneID="Gkq-wy-uSE">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Gastrit" storyboardName="AkutGastrit" id="9ho-Vs-j9M" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aNe-Kl-aoj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3211" y="381"/>
+        </scene>
+        <!--Akut_Larenjit-->
+        <scene sceneID="4Vw-t2-MFQ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Larenjit" storyboardName="Akut_Larenjit" id="OP4-D5-Y5j" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lKc-qB-yWY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3218" y="426"/>
+        </scene>
+        <!--Akut Nazofarenjit-->
+        <scene sceneID="Mzx-7i-3Fl">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Nazofarenjit" storyboardName="Akut Nazofarenjit" id="FEu-tq-mhO" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5q7-yS-vuu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3244" y="466"/>
+        </scene>
+        <!--akut_otitis_media-->
+        <scene sceneID="HPV-kq-Ifu">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akut Otitis Media ( AOM )" storyboardName="akut_otitis_media" id="aPt-oc-Ds1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IDB-Vj-FoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3241" y="514"/>
+        </scene>
+        <!--Anal_Fissur-->
+        <scene sceneID="t2n-zF-oPg">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Anal Fissür ( Makat Çatlağı )" storyboardName="Anal_Fissur" id="dlo-Wi-3eN" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BCG-dl-J75" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3212" y="561"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="acillericonbtn.png" width="300" height="300"/>
+        <image name="ambulenceicon.png" width="32" height="32"/>
+        <image name="anasayfavector.png" width="32" height="32"/>
+        <image name="backgroundshome.jpg" width="626" height="521"/>
+        <image name="poliklinikicon1.png" width="344" height="310"/>
+        <image name="poliklinikvector.png" width="32" height="32"/>
+        <image name="taniaraicon.ico" width="256" height="256"/>
+        <image name="taniaravector.png" width="32" height="32"/>
+        <image name="yasaluyariicon.png" width="720" height="720"/>
+        <image name="yogunbakim_300x300.png" width="300" height="300"/>
+        <image name="yogunbakimvector.png" width="32" height="32"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="B1q-DJ-dnL"/>
+        <segue reference="Lp5-BC-SEx"/>
+        <segue reference="XSo-e7-feR"/>
+        <segue reference="sKx-EK-UW6"/>
+    </inferredMetricsTieBreakers>
+</document>

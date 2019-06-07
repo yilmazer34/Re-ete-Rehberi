@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="z2d-QQ-Us7">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ETKEN ARA-->
+        <scene sceneID="x3G-Zn-sw4">
+            <objects>
+                <tableViewController id="z2d-QQ-Us7" customClass="Etkenmaddeara" customModule="Rec_eteA_7_24" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="yjv-xV-ZpR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="AdR-gW-1Oa">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AdR-gW-1Oa" id="eQL-Ln-j1Z">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="z2d-QQ-Us7" id="Ylb-xc-dBY"/>
+                            <outlet property="delegate" destination="z2d-QQ-Us7" id="sW4-dv-TL4"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="ETKEN ARA" image="taniaravector.png" id="8My-Fi-wBN"/>
+                    <navigationItem key="navigationItem" id="6EK-gg-bWw">
+                        <barButtonItem key="backBarButtonItem" title="GERİ" id="B82-Fa-rNq"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1VG-cJ-rKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6492" y="-294"/>
+        </scene>
+        <!--Parasetamol-->
+        <scene sceneID="YIT-P2-OBz">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Parasetamol Kombinasyon" storyboardName="Parasetamol" id="NIH-vP-ce5" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdQ-wP-dWV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7091" y="-584"/>
+        </scene>
+        <!--AmoksisilinAsit-->
+        <scene sceneID="7ju-Je-cKK">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Amoksisilin Asit" storyboardName="AmoksisilinAsit" id="8CO-YZ-dcy" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MB8-VV-0hG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7104" y="-551"/>
+        </scene>
+        <!--Adrenalin-->
+        <scene sceneID="dwI-ev-rga">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Adrenalin (Epinefrin)" storyboardName="Adrenalin" id="WS7-cM-k1G" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6JP-XQ-t0Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7075" y="-517"/>
+        </scene>
+        <!--Amoksisilin-klavunalik-asit-->
+        <scene sceneID="YC7-3V-BQf">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Amoksisilin + Klavulanik Asit " storyboardName="Amoksisilin-klavunalik-asit" id="pol-JH-Tne" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZFj-qX-btq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7160" y="-485"/>
+        </scene>
+        <!--Asetil-Salisik-Asit-->
+        <scene sceneID="W03-3S-teI">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Asetilsalisilik Asit" storyboardName="Asetil-Salisik-Asit" id="8wR-Yg-Cdo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JgB-Ai-RVE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7116" y="-454"/>
+        </scene>
+        <!--Metilprednizolon-Asetat-->
+        <scene sceneID="ibD-sr-rXy">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Metilprednizolon Asetat" storyboardName="Metilprednizolon-Asetat" id="7eb-U6-TKK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ttg-qc-qHm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7146" y="-425"/>
+        </scene>
+        <!--Sodyum-Klorur-->
+        <scene sceneID="HL7-h3-BhY">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Sodyum Klorür (SF,izotonik,NACI)" storyboardName="Sodyum-Klorur" id="p3M-pJ-osV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y1N-Ra-HHM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7103" y="-395"/>
+        </scene>
+        <!--Siprofloksasin-->
+        <scene sceneID="MGL-9K-DfC">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Siprofloksasin (Ciprofloxacin)" storyboardName="Siprofloksasin" id="5v9-W7-cfd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r4b-Qf-xCf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7098" y="-365"/>
+        </scene>
+        <!--Sefriakson-->
+        <scene sceneID="FUn-j0-foW">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Seftriakson (ceftriaxone)" storyboardName="Sefriakson" id="4YU-5V-m80" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qFy-N5-AtP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7081" y="-335"/>
+        </scene>
+        <!--Salbutamol-->
+        <scene sceneID="G0P-y8-Eqm">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Albuterol (Salbutamol)" storyboardName="Salbutamol" id="l39-qL-0WO" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ig-lr-oG1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7084" y="-305"/>
+        </scene>
+        <!--Deksametazon-->
+        <scene sceneID="4jH-7R-Bpn">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Deksametazon (Dexamethasone)" storyboardName="Deksametazon" id="LgK-Ed-7N1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="inL-Z0-HwH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7100" y="-277"/>
+        </scene>
+        <!--Feniramin-Maleat-->
+        <scene sceneID="dGL-Mo-EEH">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Feniramin maleat" storyboardName="Feniramin-Maleat" id="vlZ-CY-GSh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LN0-9a-1IL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7114" y="-247"/>
+        </scene>
+        <!--Finasterid-->
+        <scene sceneID="frY-Nl-DUi">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Finasterid (finasteride)" storyboardName="Finasterid" id="49g-Lg-4w7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UzQ-QW-Vdr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7078" y="-217"/>
+        </scene>
+        <!--Fluokortolon-Pivalat-Salisik-Asit-->
+        <scene sceneID="XEP-OI-MTw">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Fluokortolon Pivalat + Salisilik Asit" storyboardName="Fluokortolon-Pivalat-Salisik-Asit" id="75m-tI-Im1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tgs-MY-Re2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7187" y="-189"/>
+        </scene>
+        <!--Psodoefedrin-Kombinasyon-->
+        <scene sceneID="x7H-Pi-ZDK">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Psödoefedrin Kombinasyon" storyboardName="Psodoefedrin-Kombinasyon" id="WFV-Co-loC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8oU-Vp-1h4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7163" y="-133"/>
+        </scene>
+        <!--Butamirat-Sitrat-->
+        <scene sceneID="IjF-ZX-G7B">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Butamirat Sitrat (butamyrate citrate)" storyboardName="Butamirat-Sitrat" id="Vqp-65-hNl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tXQ-zJ-zNf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7108" y="-103"/>
+        </scene>
+        <!--Sefuroksim-->
+        <scene sceneID="qIC-Iu-OL4">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Sefuroksim (cefuroxime)" storyboardName="Sefuroksim" id="FUq-Tl-JWX" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qu2-qj-DIV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7084" y="-75"/>
+        </scene>
+        <!--Metronidazol-->
+        <scene sceneID="HD4-md-SrS">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Metronidazol (metronidazole)" storyboardName="Metronidazol" id="yRj-hr-xkq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Azz-p6-4xM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7091" y="-46"/>
+        </scene>
+        <!--Oksimetazolin-HCI-->
+        <scene sceneID="5RH-Jy-1y5">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Oksimetazolin HCI (oxymetazoline HCl)" storyboardName="Oksimetazolin-HCI" id="Zy4-Ri-zac" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7xM-iv-ccu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7120" y="-17"/>
+        </scene>
+        <!--Veramapil-->
+        <scene sceneID="GRN-FG-Oe2">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Verapamil HCL (verapamil HCL)" storyboardName="Veramapil" id="xs8-wA-WGj" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aVd-Yc-A54" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7078" y="12"/>
+        </scene>
+        <!--Famotidin-->
+        <scene sceneID="sMf-qS-9Pn">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Famotidin (famotidine)" storyboardName="Famotidin" id="rhQ-Gn-csd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="06u-vY-M6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7077" y="41"/>
+        </scene>
+        <!--Solunum-Sistemi-Antiseptik-->
+        <scene sceneID="6Kx-cE-GOh">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Solunum Sistemi Antiseptik" storyboardName="Solunum-Sistemi-Antiseptik" id="Nic-aO-v6O" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Sc-eG-PMc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7166" y="70"/>
+        </scene>
+        <!--Esomeprazol-->
+        <scene sceneID="jnI-bS-oJU">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Esomeprazol (esomeprazole)" storyboardName="Esomeprazol" id="RlK-dk-lQ8" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OTK-Ag-RHm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7091" y="98"/>
+        </scene>
+        <!--Benzidamin-Kombinasyon-->
+        <scene sceneID="Ny9-nw-e6C">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Benzidamin (Benzydamin)" storyboardName="Benzidamin-Kombinasyon" id="rig-3L-pa9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LmP-Nm-juX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7154" y="128"/>
+        </scene>
+        <!--Furosemid-->
+        <scene sceneID="T3e-ad-AVU">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Furosemid" storyboardName="Furosemid" id="EeL-8H-ik2" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vFf-Qc-V3m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7080" y="331"/>
+        </scene>
+        <!--Budesonid-->
+        <scene sceneID="9kB-Hd-RCN">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Budesonid (Budezonid)" storyboardName="Budesonid" id="8WU-GX-Hwh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VJf-Ev-jf4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7080" y="360"/>
+        </scene>
+        <!--Kaptoril-->
+        <scene sceneID="OwM-JI-Nsq">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Kaptoril" storyboardName="Kaptoril" id="ki9-UD-Ikd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yzb-C4-Lk5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7067" y="390"/>
+        </scene>
+        <!--AmoksisilinTrihidrat-->
+        <scene sceneID="vGX-hD-khF">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Amoksisilin Trihidrat" storyboardName="AmoksisilinTrihidrat" id="ciY-2a-sMI" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gVM-xN-O03" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7122" y="419"/>
+        </scene>
+        <!--LidokainHcl-Tribenosid-->
+        <scene sceneID="Mr7-MW-lve">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="LidokainHcl + Tribenosid" storyboardName="LidokainHcl-Tribenosid" id="a7R-6c-CRI" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tr7-uQ-fDr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7138" y="448"/>
+        </scene>
+        <!--MagnezyumHidroksit-->
+        <scene sceneID="DkF-mr-IkE">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Magnezyum hidroksit" storyboardName="MagnezyumHidroksit" id="tFR-FE-xhY" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yfx-Jk-iT2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7132" y="479"/>
+        </scene>
+        <!--Deksametazon-Siprofloksasin-Otolojik-->
+        <scene sceneID="Jho-8W-yze">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Deksametazon + Siprofloksasin + Otolojik" storyboardName="Deksametazon-Siprofloksasin-Otolojik" id="5pi-LN-zhk" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5RY-L4-bzf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7213" y="507"/>
+        </scene>
+        <!--petidinhcl-->
+        <scene sceneID="gSj-MV-cvl">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Petidin hcl" storyboardName="petidinhcl" id="rdx-6H-RL0" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9q4-J3-WPI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7076" y="534"/>
+        </scene>
+        <!--ImipenemSilastatinSodyum-->
+        <scene sceneID="Odl-k2-94c">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Imipenem Silastatin Sodyum" storyboardName="ImipenemSilastatinSodyum" id="7C8-ju-BGf" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="07V-3u-Gzt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7160" y="563"/>
+        </scene>
+        <!--olopatadineHcl-->
+        <scene sceneID="kHm-Ih-o1f">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Olopatadine Hcl" storyboardName="olopatadineHcl" id="HMA-eb-XFz" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4fk-DC-zk1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7101" y="591"/>
+        </scene>
+        <!--KlobetasolPropiyon-->
+        <scene sceneID="8md-Kt-my0">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Klobetasol Propiyon" storyboardName="KlobetasolPropiyon" id="6de-o7-EK9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mhf-aT-1f8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7122" y="620"/>
+        </scene>
+        <!--HidrokortizonAsetat-->
+        <scene sceneID="jV6-5j-oHw">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Hidrokortizon Asetat" storyboardName="HidrokortizonAsetat" id="7sg-hS-pMj" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ay-ON-Wg0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7127" y="650"/>
+        </scene>
+        <!--Levosetirizin-->
+        <scene sceneID="rnr-6J-A6G">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Levosetirizin" storyboardName="Levosetirizin" id="kMS-mE-moy" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HBH-R6-Nd6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7090" y="678"/>
+        </scene>
+        <!--Levonorgestrel-->
+        <scene sceneID="Mdg-sQ-hfE">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Levonorgestrel" storyboardName="Levonorgestrel" id="YZd-vI-jXN" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J0T-Ts-5Pl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7100" y="707"/>
+        </scene>
+        <!--Levonorgestrel-EtinilEstradiol-->
+        <scene sceneID="37K-lP-IdK">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Levonorgestrel + Etinil Estradiol" storyboardName="Levonorgestrel-EtinilEstradiol" id="1wB-pb-Uvm" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UXl-ka-rDb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7172" y="736"/>
+        </scene>
+        <!--UlipristalAsetat-->
+        <scene sceneID="9Rq-g5-oVF">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Ulipristal Asetat" storyboardName="UlipristalAsetat" id="mCx-Ny-TZA" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Bs-Yu-Hvq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7102" y="765"/>
+        </scene>
+        <!--Klaritromisin-->
+        <scene sceneID="JKt-td-O1V">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Klaritromisin" storyboardName="Klaritromisin" id="of7-N9-pbJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d2n-xG-K0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7090" y="794"/>
+        </scene>
+        <!--Trimetoprim+Sulfametoksazol-->
+        <scene sceneID="fLA-St-FYd">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Trimetoprim + Sulfametoksazol" storyboardName="Trimetoprim+Sulfametoksazol" id="AcE-Fg-9lp" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RaK-Wd-D51" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7175" y="823"/>
+        </scene>
+        <!--TetrasiklinHcl-->
+        <scene sceneID="EwE-Ou-abX">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Tetrasiklin Hcl" storyboardName="TetrasiklinHcl" id="cvc-Tq-cKO" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Zc-7W-QYs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7093" y="884"/>
+        </scene>
+        <!--FlutikazonPropiyonat-->
+        <scene sceneID="uqQ-mb-YAl">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Flutikazon Propiyonat" storyboardName="FlutikazonPropiyonat" id="SxF-N9-cpU" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pVX-Gc-71e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7130" y="913"/>
+        </scene>
+        <!--Desloratadin-->
+        <scene sceneID="emL-NM-FQS">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Desloratadin" storyboardName="Desloratadin" id="dgK-fK-OcF" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ggs-BB-4Z0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7089" y="943"/>
+        </scene>
+        <!--Loratadin-->
+        <scene sceneID="zuK-0X-0Nb">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Loratadin" storyboardName="Loratadin" id="eyS-rb-8XY" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gW9-aa-OcX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7075" y="971"/>
+        </scene>
+        <!--TriamsinolonAsetoni-->
+        <scene sceneID="mqV-4e-1B9">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Triamsinolon Asetoni" storyboardName="TriamsinolonAsetoni" id="d9O-l4-VZ7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tW8-1W-pSR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7126" y="1001"/>
+        </scene>
+        <!--LidokainHcl+Setilpiridinyum-->
+        <scene sceneID="L41-YX-7vj">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Lidokain Hcl+Setilpiridinyum" storyboardName="LidokainHcl+Setilpiridinyum" id="xie-Tx-fzH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oqc-GH-cAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7164" y="1029"/>
+        </scene>
+        <!--Nitrofurantoin-->
+        <scene sceneID="5Mg-DP-FOh">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Nitrofurantoin" storyboardName="Nitrofurantoin" id="4On-Vb-Ghs" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ka-VQ-gJV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7098" y="1060"/>
+        </scene>
+        <!--indanazolinHcl-->
+        <scene sceneID="YuD-1H-ZJo">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="indanazolin Hcl" storyboardName="indanazolinHcl" id="uh7-mV-0Yv" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xkg-RR-kAv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7101" y="1089"/>
+        </scene>
+        <!--PsedoefedrinHcl+ibuprofen-->
+        <scene sceneID="s4d-4n-Xta">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="psödoefedrin Hcl + ibuprofen" storyboardName="PsedoefedrinHcl+ibuprofen" id="Qwy-fp-mq5" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pbn-IE-3YW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7163" y="1119"/>
+        </scene>
+        <!--Moksifloksasin-->
+        <scene sceneID="2zH-hC-p3q">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Moksifloksasin" storyboardName="Moksifloksasin" id="hqh-6a-O3o" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fc6-xC-waa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7102" y="1148"/>
+        </scene>
+        <!--Setirizin-->
+        <scene sceneID="EMP-8h-OSV">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Setirizin Hcl" storyboardName="Setirizin" id="nJN-mC-abi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C71-fy-cNO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7070" y="1178"/>
+        </scene>
+        <!--Eritromisin+isotretinoin-->
+        <scene sceneID="OYa-ac-Txh">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Eritromisin + isotretinoin" storyboardName="Eritromisin+isotretinoin" id="go8-TO-dqe" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Fr-BZ-AcR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7141" y="1209"/>
+        </scene>
+        <!--Doksisiklin-->
+        <scene sceneID="cgy-ZB-x0a">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Doksisiklin Hiklat" storyboardName="Doksisiklin" id="MjE-B1-zCp" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0m7-KU-qQG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7082" y="1240"/>
+        </scene>
+        <!--Benzoil Peroksit+Eritromisin-->
+        <scene sceneID="xCf-8O-4Xo">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Benzoil Peroksit + Eritromisin" storyboardName="Benzoil Peroksit+Eritromisin" id="gZV-Jv-OdC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yMi-Pn-s6r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7166" y="1268"/>
+        </scene>
+        <!--Budezonid+Formoterol-->
+        <scene sceneID="SSo-Yh-G8k">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Budezonid (Budesonid)+Formoterol" storyboardName="Budezonid+Formoterol" id="gP3-8d-OB2" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ert-yO-xTd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7138" y="1326"/>
+        </scene>
+        <!--Montelukast-Sodyum-->
+        <scene sceneID="oXO-Lc-imj">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Montelukast-Sodyum" storyboardName="Montelukast-Sodyum" id="1uB-Y8-WHM" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tbb-9B-9Qu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7131" y="1355"/>
+        </scene>
+        <!--Teofilin-->
+        <scene sceneID="gyk-qt-0Ic">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Teofilin" storyboardName="Teofilin" id="OR7-DU-ZAr" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ONh-Fz-f5Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7075" y="1391"/>
+        </scene>
+        <!--Tobramisin-->
+        <scene sceneID="xJn-4o-CVO">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Tobramisin (Tobramycin)" storyboardName="Tobramisin" id="6xh-OA-8eo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cav-2J-Bte" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7091" y="1423"/>
+        </scene>
+        <!--FusidikAsit-->
+        <scene sceneID="yQk-cE-4Vi">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Fusidik Asit (Fusidic acid)" storyboardName="FusidikAsit" id="Mcb-Uv-lDe" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xRM-6n-nEG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7090" y="1459"/>
+        </scene>
+        <!--Penisilin-V-->
+        <scene sceneID="OGl-qw-SSa">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Penisilin V (Fenoksimetilpenisilin)" storyboardName="Penisilin-V" id="Ykz-rU-xzL" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OYN-iT-Zsv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7088" y="1495"/>
+        </scene>
+        <!--Eritromisin-->
+        <scene sceneID="o9m-TJ-YBd">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Eritromisin (Erythromycin)" storyboardName="Eritromisin" id="DaW-e1-SeS" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mrU-H7-5E9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7094" y="1533"/>
+        </scene>
+        <!--Vitamin+Mineral-->
+        <scene sceneID="CCb-Xd-zip">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Vitamin + Mineral" storyboardName="Vitamin+Mineral" id="dYk-ad-sE3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fNY-vP-PTx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7116" y="1563"/>
+        </scene>
+        <!--Dimenhidrinat-->
+        <scene sceneID="fMl-8W-rjB">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Dimenhidrinat (dimenhydrinate)" storyboardName="Dimenhidrinat" id="l7b-Or-Eec" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z3e-Pv-E40" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7109" y="1596"/>
+        </scene>
+        <!--Metronidazol+Mikonazo Nitrat+LidokainHcl-->
+        <scene sceneID="vdc-Q6-Jig">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Metronidazol + Mikonazo Nitrat + Lidokain Hcl" storyboardName="Metronidazol+Mikonazo Nitrat+LidokainHcl" id="vU7-F1-BXH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="67v-Ew-SHK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7229" y="1629"/>
+        </scene>
+        <!--Klindamisin-->
+        <scene sceneID="CVK-hN-zd6">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Klindamisin (clindamycin)" storyboardName="Klindamisin" id="cMM-cU-jKG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2xi-VV-Uc7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7093" y="1661"/>
+        </scene>
+        <!--TamsulosinHcl-->
+        <scene sceneID="8l8-8A-sFi">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Tamsulosin Hcl" storyboardName="TamsulosinHcl" id="zEc-bJ-2bj" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ulI-ya-HHt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7101" y="1692"/>
+        </scene>
+        <!--GozSampuani-->
+        <scene sceneID="CNF-ov-scZ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Göz Şampuanı" storyboardName="GozSampuani" id="Vjx-0b-JCB" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nBA-Uj-ppF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7083" y="1733"/>
+        </scene>
+        <!--Polivinil Alkol+Povidon-->
+        <scene sceneID="IA0-jJ-vCU">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Polivinil Alkol + Povidon" storyboardName="Polivinil Alkol+Povidon" id="UAG-OH-mBd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8T6-fc-n5u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7128" y="1773"/>
+        </scene>
+        <!--PrednisolonAsetat+Sulfasetamid Sodyum-->
+        <scene sceneID="9WU-tw-vd1">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="PrednisolonAsetat + Sulfasetamid Sodyum" storyboardName="PrednisolonAsetat+Sulfasetamid Sodyum" id="qPS-Tg-Gri" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ww-jH-FZO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7206" y="1809"/>
+        </scene>
+        <!--DiflukortolonValerat+Klorkinaldol-->
+        <scene sceneID="Ilv-3y-TsB">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Diflukortolon Valerat + Klorkinaldol" storyboardName="DiflukortolonValerat+Klorkinaldol" id="bHu-mO-Vo7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aVi-xO-Uya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7186" y="1865"/>
+        </scene>
+        <!--Glyserin-damla-->
+        <scene sceneID="nVJ-rE-wfV">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Glyserin damla" storyboardName="Glyserin-damla" id="Xyf-HQ-j0U" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sob-as-IkM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7101" y="1899"/>
+        </scene>
+        <!--Distile-Su-->
+        <scene sceneID="8G2-LW-bsI">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Eau Distillee (Distile Su)" storyboardName="Distile-Su" id="1vD-G8-FVW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQc-HM-vse" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7077" y="1931"/>
+        </scene>
+        <!--FerikdemirIIIHidroksitSukroz-->
+        <scene sceneID="qvV-uF-koh">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Ferik ( demir III ) Hidroksit Sükroz" storyboardName="FerikdemirIIIHidroksitSukroz" id="x4c-Ao-QbD" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ASe-mo-Usu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7164" y="1959"/>
+        </scene>
+        <!--Enoksaparin-Sodyum-->
+        <scene sceneID="D2x-Gu-n2u">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Enoksaparin-Sodyum" storyboardName="Enoksaparin-Sodyum" id="vfi-eq-AJW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WXd-2P-fVs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7129" y="2012"/>
+        </scene>
+        <!--Varfarin-Sodyum-->
+        <scene sceneID="Kj5-hy-2QY">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Varfarin - Sodyum" storyboardName="Varfarin-Sodyum" id="odw-pc-cbU" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X3B-8M-j0h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7113" y="2040"/>
+        </scene>
+        <!--Okserutin-->
+        <scene sceneID="87t-HM-pOB">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Okserutin" storyboardName="Okserutin" id="b4d-9M-N33" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bAn-UB-XPf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7084" y="2068"/>
+        </scene>
+        <!--Rosiglitazon-->
+        <scene sceneID="U1B-mY-9tD">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Rosiglitazon" storyboardName="Rosiglitazon" id="ezx-aj-raJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eac-VU-Ioo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7083" y="2098"/>
+        </scene>
+        <!--Metformin-Hcl-->
+        <scene sceneID="ue3-V7-O3n">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Metformin Hcl" storyboardName="Metformin-Hcl" id="5HK-Bf-9UR" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I3d-Sg-8Eg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7104" y="2125"/>
+        </scene>
+        <!--Glimepirid-->
+        <scene sceneID="cyK-M3-o13">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Glimepirid" storyboardName="Glimepirid" id="UHt-xK-1TD" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ok2-1M-5bN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7080" y="2155"/>
+        </scene>
+        <!--Akarboz-->
+        <scene sceneID="s8P-AY-0Wx">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Akarboz" storyboardName="Akarboz" id="6qr-3Y-f4h" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Th2-R3-Hvh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7068" y="2185"/>
+        </scene>
+        <!--Nateglinid-->
+        <scene sceneID="5h1-RD-tKb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Nateglinid" id="waa-go-lb8" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="clU-w0-fxU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7084" y="2212"/>
+        </scene>
+        <!--Repaglinid-->
+        <scene sceneID="Szf-QI-rwX">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Repaglinid" storyboardName="Repaglinid" id="Rp9-AI-XhK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KP1-EM-feL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7081" y="2243"/>
+        </scene>
+        <!--insulin-Reguler-->
+        <scene sceneID="I23-yp-Erp">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Kristalize insülin (ınsulin-Reguler)" storyboardName="insulin-Reguler" id="1ef-lm-BsH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vOD-tt-mGP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7102" y="2273"/>
+        </scene>
+        <!--Tiyokonazol-->
+        <scene sceneID="iYr-GK-ZGd">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Tiyokonazol (Tiokonazol)" storyboardName="Tiyokonazol" id="Unr-ER-REl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hog-iv-5zX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7093" y="2300"/>
+        </scene>
+        <!--Diflukortolon Valerat+izokonazol-->
+        <scene sceneID="J8h-cT-rtU">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Diflukortolon Valerat + izokonazol" storyboardName="Diflukortolon Valerat+izokonazol" id="YVA-Bc-3wp" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Egz-e9-cBa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7174" y="2327"/>
+        </scene>
+        <!--Nistatin-->
+        <scene sceneID="zVh-cC-bS4">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Nistatin" storyboardName="Nistatin" id="jYq-mz-kur" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wTW-pU-jHE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7081" y="2442"/>
+        </scene>
+        <!--Sukralfat-->
+        <scene sceneID="OYG-fV-E6n">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Sükralfat" storyboardName="Sukralfat" id="KvO-UJ-Q0Z" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0De-0D-6gZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7084" y="2472"/>
+        </scene>
+        <!--Flukonazol-->
+        <scene sceneID="NFo-l3-u62">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Flukonazol" storyboardName="Flukonazol" id="ut9-5L-XoI" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="75J-MR-s5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7089" y="2500"/>
+        </scene>
+        <!--Ketokanazol-->
+        <scene sceneID="1mH-Wf-ir5">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Ketokonazol (Ketoconazole)" storyboardName="Ketokanazol" id="smo-Sy-Cqx" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="935-QO-XTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7088" y="2528"/>
+        </scene>
+        <!--Asiklovir-->
+        <scene sceneID="8Tq-M6-4pz">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Asiklovir" storyboardName="Asiklovir" id="7Rc-wp-ngX" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZP0-ur-XwZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7085" y="2557"/>
+        </scene>
+        <!--Penisilin-G-Benzatin-->
+        <scene sceneID="ZED-xM-QLB">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Penisilin-G-Benzatin" storyboardName="Penisilin-G-Benzatin" id="jTD-cY-Xea" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ceh-lN-lUM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7124" y="2583"/>
+        </scene>
+        <!--Propranolol-Hcl-->
+        <scene sceneID="fYg-k2-tNr">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Propranolol-Hcl" storyboardName="Propranolol-Hcl" id="7vZ-kx-6Yp" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wL4-YV-znI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7101" y="2613"/>
+        </scene>
+        <!--Primidone-->
+        <scene sceneID="kCm-CU-pdM">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Primidone-hcl" storyboardName="Primidone" id="pta-zW-lAE" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Raf-zL-yoF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7088" y="2642"/>
+        </scene>
+        <!--Parasetamol+Klorzoksazon-->
+        <scene sceneID="xH9-61-nJb">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Parasetamol + Klorzoksazon" storyboardName="Parasetamol+Klorzoksazon" id="W7T-rv-ql2" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gQ0-iP-VHE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7162" y="2671"/>
+        </scene>
+        <!--Amitriptilin-Hcl-->
+        <scene sceneID="3ny-9H-eqV">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Amitriptilin-Hcl" storyboardName="Amitriptilin-Hcl" id="6VD-zw-Cw1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AxX-ur-ga3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7109" y="2698"/>
+        </scene>
+        <!--Tiyokolsikozid-->
+        <scene sceneID="Xjx-oE-GC1">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Tiyokolsikozid (Tiyokolşikosid)" storyboardName="Tiyokolsikozid" id="Zib-If-Pbg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D9t-U8-ToG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7101" y="2728"/>
+        </scene>
+        <!--Diazepam-->
+        <scene sceneID="Z7d-Ug-INR">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Diazepam" storyboardName="Diazepam" id="Wkh-on-2NS" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ql-sn-2rs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7086" y="2755"/>
+        </scene>
+        <!--Mannitol-->
+        <scene sceneID="TlB-dK-dTz">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Mannitol" storyboardName="Mannitol" id="cc7-Ov-9F8" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hop-sI-tPU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7076" y="2786"/>
+        </scene>
+        <!--Pilokarpin-Hcl-->
+        <scene sceneID="8Kc-Qo-0ht">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Pilokarpin-Hcl" storyboardName="Pilokarpin-Hcl" id="xjB-mg-XBd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yMG-d6-ckU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7104" y="2817"/>
+        </scene>
+        <!--Pantoprazol-->
+        <scene sceneID="fXr-OI-JSe">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Pantoprazol" storyboardName="Pantoprazol" id="sc7-Ok-dpt" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Usy-8Z-85w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7092" y="2848"/>
+        </scene>
+        <!--Permetrin-->
+        <scene sceneID="yss-Qy-Jbs">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Permetrin" storyboardName="Permetrin" id="i4V-jd-75u" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gCX-gk-pEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7088" y="2875"/>
+        </scene>
+        <!--Ranitidin-->
+        <scene sceneID="ry8-C2-5k2">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Ranitidin" storyboardName="Ranitidin" id="ChK-88-UDK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="STp-Hl-Ucq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7083" y="2904"/>
+        </scene>
+        <!--Diklofenak-Potasyum-->
+        <scene sceneID="Q9Z-Q9-hGd">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Diklofenak-Potasyum" storyboardName="Diklofenak-Potasyum" id="v8w-lU-pbj" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oHt-zR-Bng" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7132" y="2934"/>
+        </scene>
+        <!--Saccharomyces-Boulardi-->
+        <scene sceneID="FOc-Rh-bHP">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Saccharomyces-Boulardi (Liyofilize)" storyboardName="Saccharomyces-Boulardi" id="t14-P2-DDh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fLE-rJ-d0d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7157" y="2963"/>
+        </scene>
+        <!--Tenoksikam-->
+        <scene sceneID="w0Y-G0-cl1">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Tenoksikam" storyboardName="Tenoksikam" id="Ng5-YM-opm" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K8Y-Rg-u0H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7090" y="2990"/>
+        </scene>
+        <!--Etofenamat-->
+        <scene sceneID="7r1-QB-KGm">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Etofenamat" storyboardName="Etofenamat" id="lKq-uo-Mdy" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I7N-TJ-Yy7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7096" y="3020"/>
+        </scene>
+        <!--Deksketoprofen-trometamol-->
+        <scene sceneID="Zzl-5X-F3f">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Deksketoprofen-trometamol" storyboardName="Deksketoprofen-trometamol" id="bM4-X8-M8C" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w49-G1-pbX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7165" y="3047"/>
+        </scene>
+        <!--Alvita-aloe-->
+        <scene sceneID="Efm-Fc-1ou">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Alvita-aloe" storyboardName="Alvita-aloe" id="bQy-fH-yhQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="af3-ol-Tur" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7084" y="3075"/>
+        </scene>
+        <!--Dekstroz-->
+        <scene sceneID="KlH-xj-9Ea">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Dekstroz (dextrose)" storyboardName="Dekstroz" id="AU0-aj-KJW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g7m-z3-mOH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7082" y="3105"/>
+        </scene>
+        <!--Hiyosin-N-Butilbromur-->
+        <scene sceneID="7UU-di-0bD">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Hiyosin N Butilbromur(hiyosin-n-butilbromür)" storyboardName="Hiyosin-N-Butilbromur" id="k7q-uv-Hvf" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tQu-tk-6Ud" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7138" y="3133"/>
+        </scene>
+        <!--Tribenosid+Lidokain-Hidroklorür-->
+        <scene sceneID="XBw-am-vnU">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Tribenosid + Lidokain-Hidroklorür" storyboardName="Tribenosid+Lidokain-Hidroklorür" id="TFr-Y0-QRL" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3a4-tZ-HnS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7188" y="3161"/>
+        </scene>
+        <!--Famsiklovir-->
+        <scene sceneID="ixI-8Z-2OQ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Famsiklovir" storyboardName="Famsiklovir" id="niw-IW-7eu" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gJ0-Y4-N1M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7093" y="3192"/>
+        </scene>
+        <!--Mikonazol+Aluminyumhidroksiklorit-->
+        <scene sceneID="vOD-iP-SRp">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Mikonazol + Aluminyumhidroksiklorit" storyboardName="Mikonazol+Aluminyumhidroksiklorit" id="eiG-LQ-GbW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j7w-63-cue" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7201" y="3223"/>
+        </scene>
+        <!--Triklozan+Aluminyum-Hcl-->
+        <scene sceneID="lhw-tF-KMn">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Triklozan + Aluminyum-Hcl" storyboardName="Triklozan+Aluminyum-Hcl" id="UOC-Ol-Mal" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0vE-iL-oq7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7154" y="3248"/>
+        </scene>
+        <!--Atorvastatin-Kalsiyum-->
+        <scene sceneID="toC-Oo-Tza">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Atorvastatin Kalsiyum (Ca)" storyboardName="Atorvastatin-Kalsiyum" id="7l0-mz-bnK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8jl-BS-0dO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7138" y="3277"/>
+        </scene>
+        <!--Olmesartan-Medoksomil+Hidroklorotiazid-->
+        <scene sceneID="yAa-Kv-qxO">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Olmesartan-Medoksomil+Hidroklorotiazid" storyboardName="Olmesartan-Medoksomil+Hidroklorotiazid" id="FNN-of-I1F" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zqb-t4-Hoj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7228" y="3331"/>
+        </scene>
+        <!--Amlodipin-->
+        <scene sceneID="dzC-oD-JDi">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Amlodipin" storyboardName="Amlodipin" id="yrc-42-Npi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Jx-zt-fuU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7089" y="3361"/>
+        </scene>
+        <!--Gliserol-Trinitrat-->
+        <scene sceneID="a4Z-b6-NwL">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Nitrogliserin (Gliserol Trinitrat)" storyboardName="Gliserol-Trinitrat" id="y8z-vR-WtE" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u8d-pK-jdB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7114" y="3390"/>
+        </scene>
+        <!--Propiltiourasil-->
+        <scene sceneID="OxU-N5-hG2">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Propiltiourasil" storyboardName="Propiltiourasil" id="W5H-fH-9JO" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bVy-t6-p19" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7099" y="3423"/>
+        </scene>
+        <!--Cinko-->
+        <scene sceneID="pk1-Ob-rRv">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Çinko" storyboardName="Cinko" id="BU0-5m-P19" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yk1-HI-0ua" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7067" y="3454"/>
+        </scene>
+        <!--Hidroksiklorokin-Sulfat-->
+        <scene sceneID="otq-SO-0L1">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Hidroksiklorokin-Sulfat (hidroksiklorokin sülfat)" storyboardName="Hidroksiklorokin-Sulfat" id="ope-z8-lGR" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zN4-zt-pmC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7146" y="3485"/>
+        </scene>
+        <!--Standardize-Hamamelis-Virgina-Ekstresi-->
+        <scene sceneID="kho-72-j8J">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Standardize-Hamamelis-Virgina-Ekstresi" storyboardName="Standardize-Hamamelis-Virgina-Ekstresi" id="mIu-F1-6Ib" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VZz-RZ-3ud" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7224" y="3519"/>
+        </scene>
+        <!--PisikOnleyici-->
+        <scene sceneID="ygj-QZ-lyk">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Pişik Önleyici Bebek Kremi" storyboardName="PisikOnleyici" id="IJI-7t-tCd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OIh-Ot-dyT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7094" y="3546"/>
+        </scene>
+        <!--Flovoksat-hidroklorur-->
+        <scene sceneID="u84-q7-zdE">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Flovoksat-hidroklorur(Hcl)" storyboardName="Flovoksat-hidroklorur" id="ZWW-VL-8Ip" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RYb-hW-mK1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7132" y="3577"/>
+        </scene>
+        <!--Trospiyum-Klorur-->
+        <scene sceneID="Izv-6Z-448">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Trospiyum klorür (Trospiyum Klorur)" storyboardName="Trospiyum-Klorur" id="lh4-7g-eKK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gO8-SY-EWu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7117" y="3612"/>
+        </scene>
+        <!--Fosfomisin-->
+        <scene sceneID="La0-rB-khX">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Fosfomisin (Fosfomycin)" storyboardName="Fosfomisin" id="8I1-bc-f98" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V9e-bn-oL8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7091" y="3645"/>
+        </scene>
+        <!--Levofloksasin-->
+        <scene sceneID="IsM-VQ-cUp">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Levofloksasin" storyboardName="Levofloksasin" id="I22-AN-IAl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n0M-i2-qoM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7099" y="3677"/>
+        </scene>
+        <!--İnaktive-Kuduz-Virusu-->
+        <scene sceneID="Jed-YX-scw">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="İnaktive-Kuduz-Virüsü(Kuduz Aşısı)" storyboardName="İnaktive-Kuduz-Virusu" id="rHx-fD-fxm" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HqF-O3-eRa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7126" y="3708"/>
+        </scene>
+        <!--Salisilik Asit+Ure-->
+        <scene sceneID="fRQ-wT-Ex2">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Salisilik Asit + üre" storyboardName="Salisilik Asit+Ure" id="Cdt-iC-a0k" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K10-hl-bUd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7114" y="3735"/>
+        </scene>
+        <!--Salisilik-Asit+Laktik-Asit-->
+        <scene sceneID="UbU-f1-otN">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Salisilik-Asit+Laktik-Asit" storyboardName="Salisilik-Asit+Laktik-Asit" id="2P5-aB-nd7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rjn-1E-ncu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7136" y="3763"/>
+        </scene>
+        <!--Azitromisin-->
+        <scene sceneID="qST-UP-9b6">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Azitromisin" storyboardName="Azitromisin" id="t5i-IP-YpC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tk7-fy-zcb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7083" y="3789"/>
+        </scene>
+        <!--Tiotropium-Bromur-Monohidrat-->
+        <scene sceneID="s0N-Uy-rdN">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Tiotropium Bromur Monohidrat" storyboardName="Tiotropium-Bromur-Monohidrat" id="pyk-bO-bZc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cj9-ce-4WS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7183" y="3816"/>
+        </scene>
+        <!--Oksijen-->
+        <scene sceneID="4N5-xj-bjs">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Oksijen (O2)" storyboardName="Oksijen" id="6T3-af-fYg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RLq-hw-xUL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7075" y="3849"/>
+        </scene>
+        <!--SuniGozyaslari-->
+        <scene sceneID="xJL-Ah-hWD">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Suni Gözyaşı" storyboardName="SuniGozyaslari" id="x8d-0b-VGi" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mRZ-88-sfs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7109" y="3879"/>
+        </scene>
+        <!--Sumatriptan-->
+        <scene sceneID="7XA-T3-edN">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Sumatriptan" storyboardName="Sumatriptan" id="zn7-Vd-uIF" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HVK-Uh-cyT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7089" y="3909"/>
+        </scene>
+        <!--Phenprobamat-->
+        <scene sceneID="da0-Uy-PVx">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Phenprobamat (Phenprobamate)" storyboardName="Phenprobamat" id="eaw-cS-49k" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aEB-dY-9Fh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7105" y="3938"/>
+        </scene>
+        <!--Isosorbit-Dinitrat-->
+        <scene sceneID="a4B-NS-aJU">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Isosorbit-Dinitrat" storyboardName="Isosorbit-Dinitrat" id="WQ0-xV-qjH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkb-5t-HEY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7115" y="3968"/>
+        </scene>
+        <!--Rifampicin-->
+        <scene sceneID="vXn-Q0-Ym5">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Rifampicin" storyboardName="Rifampicin" id="fGl-t5-Yni" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZHS-mC-sze" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7087" y="3998"/>
+        </scene>
+        <!--Folik-Asit-->
+        <scene sceneID="ss4-zU-iEo">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Folik-Asit" storyboardName="Folik-Asit" id="mOQ-2Q-8Xf" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OGM-VN-wej" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7081" y="4026"/>
+        </scene>
+        <!--Cinko-Sulfat+C-Vitamini+Demir+Folik-Asit-->
+        <scene sceneID="HTj-Ln-fsd">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Çinko Sülfat+C Vitamini+Demir+Folik Asit" storyboardName="Cinko-Sulfat+C-Vitamini+Demir+Folik-Asit" id="Sck-Dh-3pu" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ug-8F-4Sn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7233" y="4057"/>
+        </scene>
+        <!--B12-Vitamin-->
+        <scene sceneID="kWT-T3-2Hv">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="B12 Vitamin" storyboardName="B12-Vitamin" id="RZO-wL-ScA" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Im8-ki-fgm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7090" y="4083"/>
+        </scene>
+        <!--Ketoprofen-->
+        <scene sceneID="Js2-lH-mhv">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Ketoprofen" storyboardName="Ketoprofen" id="Y3b-Nv-Rb2" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MEC-kr-hUy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7088" y="4113"/>
+        </scene>
+        <!--Feniramidol-Hcl-->
+        <scene sceneID="W5u-rU-V8e">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Feniramidol-Hcl" storyboardName="Feniramidol-Hcl" id="mEF-40-SHC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3jh-OS-pph" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7114" y="4141"/>
+        </scene>
+        <!--Albendazol-->
+        <scene sceneID="ect-GJ-lWf">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Albendazol" storyboardName="Albendazol" id="lOk-MV-obd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yz9-oG-nB8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7094" y="4168"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Hwz-nO-n9F">
+            <objects>
+                <viewController id="6dD-Ye-mUW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YPg-x2-dNY"/>
+                        <viewControllerLayoutGuide type="bottom" id="KsB-wG-jn4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oYb-Ns-c2q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z8U-ab-qgb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6627" y="4294"/>
+        </scene>
+        <!--Ramipril-->
+        <scene sceneID="QqC-ga-QJn">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Ramipril" storyboardName="Ramipril" id="dXG-Tc-Gs9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BRn-pe-PDs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7075" y="3302"/>
+        </scene>
+        <!--MagnezyumSulfat-->
+        <scene sceneID="eUx-vt-ZCn">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Magnezyum Sülfat" storyboardName="MagnezyumSulfat" id="NHW-wA-jRT" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h1G-UK-Ckz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7116" y="2384"/>
+        </scene>
+        <!--Lidokain-HCI-->
+        <scene sceneID="syA-nc-eFw">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Lidokain-HCI" storyboardName="Lidokain-HCI" id="PJS-bi-u38" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rTt-lB-46R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7101" y="2413"/>
+        </scene>
+        <!--Cinko-Oksit-->
+        <scene sceneID="U1H-fy-XqB">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Çinko Oksit+Difenhidramin+Lidokain Hcl+Gliserol+Kafur+Kalamin" storyboardName="Cinko-Oksit" id="LJB-nm-hyV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="skN-Zv-jYa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7090" y="2355"/>
+        </scene>
+        <!--Vitamin-Kompleksi-->
+        <scene sceneID="ltJ-FV-Qi8">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Vitamin-Kompleksi" storyboardName="Vitamin-Kompleksi" id="YsX-EZ-mr1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WKX-Bf-DiX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7124" y="1985"/>
+        </scene>
+        <!--Ampisilin+Sulbaktam-->
+        <scene sceneID="Nfj-I0-0I6">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Ampisilin + Sulbaktam" storyboardName="Ampisilin+Sulbaktam" id="EF2-A3-G7v" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbm-xA-DYa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7127" y="1838"/>
+        </scene>
+        <!--izotretinoin-->
+        <scene sceneID="TaG-87-cOH">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="izotretinoin" storyboardName="izotretinoin" id="FU2-ze-zAI" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZhQ-xb-Xkd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7085" y="1297"/>
+        </scene>
+        <!--Amoksisilin+Klaritromisin+Lansoprazol-->
+        <scene sceneID="yc1-dy-vzI">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Amoksisilin+Klaritromisin+Lansoprazol" storyboardName="Amoksisilin+Klaritromisin+Lansoprazol" id="iZi-ON-ucg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4jW-j7-Sfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7219" y="854"/>
+        </scene>
+        <!--Dekspantenol-->
+        <scene sceneID="R46-em-EM2">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Dekspantenol (Dexpanthenol)" storyboardName="Dekspantenol" id="85O-cF-XKJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JWo-im-non" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7095" y="157"/>
+        </scene>
+        <!--Naproksen-Sodyum-->
+        <scene sceneID="bCS-2c-WQx">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Naproksen Sodyum" storyboardName="Naproksen-Sodyum" id="Lpd-Ka-K0Y" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fLA-O6-MCA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7124" y="186"/>
+        </scene>
+        <!--Tonimer-Baby-Sprey-->
+        <scene sceneID="hme-wX-MoC">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Deniz Suyu" storyboardName="Tonimer-Baby-Sprey" id="h3A-4I-PMx" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qzl-ed-qxz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7130" y="215"/>
+        </scene>
+        <!--ibuprofen-->
+        <scene sceneID="MDV-xx-x3r">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Ibuprofen" storyboardName="ibuprofen" id="ZrV-Hr-jnv" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iyn-T1-vyJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7076" y="244"/>
+        </scene>
+        <!--Etodolak-->
+        <scene sceneID="Cu5-v7-o6m">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Etodolak (etodolac)" storyboardName="Etodolak" id="BVD-Rh-jkc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xIp-tc-oF7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7071" y="273"/>
+        </scene>
+        <!--EnoksaparinSodyum-->
+        <scene sceneID="vPF-oK-5FW">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Enoksaparin Sodyum (enoxaparin)" storyboardName="EnoksaparinSodyum" id="ThS-W6-Hoj" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xPQ-2T-Zsr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7126" y="302"/>
+        </scene>
+        <!--Metamizol-Sodyum-->
+        <scene sceneID="68c-vf-fxT">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Metamizol Sodyum" storyboardName="Metamizol-Sodyum" id="spa-rT-deO" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="orz-5K-KFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7123" y="-162"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="taniaravector.png" width="32" height="32"/>
+    </resources>
+</document>

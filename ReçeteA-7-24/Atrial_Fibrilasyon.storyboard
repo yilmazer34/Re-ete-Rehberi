@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Sjr-B7-k87">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ArialRoundedMTBold.ttf">
+            <string>ArialRoundedMTBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Atrial  Fibrilasyon-->
+        <scene sceneID="gdk-au-gkO">
+            <objects>
+                <viewController id="Sjr-B7-k87" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xgG-6M-Cp8"/>
+                        <viewControllerLayoutGuide type="bottom" id="BTm-Xy-cER"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LI2-Lf-b6o">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UKF-MV-zuZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1500"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gm4-c3-Lgd">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="atriyal_fibrilasyon-min.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MUY-8M-dj1">
+                                                <rect key="frame" x="8" y="8" width="304" height="95"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="95" id="lPI-sM-Xbr"/>
+                                                </constraints>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pKh-V9-wkr" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                <rect key="frame" x="8" y="111" width="304" height="133"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rp/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5VW-Tf-a4w">
+                                                        <rect key="frame" x="8" y="8" width="288" height="21"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="21" id="HIC-pd-fZ9"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41I-cy-gEL" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                        <rect key="frame" x="8" y="45" width="288" height="30"/>
+                                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="DsB-es-1iz"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                                        <state key="normal" title=" 1.Ormil 80 Mg 50 Tablet S:2x1 "/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="8"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                <real key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <segue destination="d2X-xm-YZZ" kind="show" id="xHM-MX-97f"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65l-Gy-2lV" customClass="RoundButton" customModule="Rec_eteA_7_24" customModuleProvider="target">
+                                                        <rect key="frame" x="8" y="83" width="288" height="30"/>
+                                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="zRd-rs-Jvn"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                                        <state key="normal" title=" 2.Ecopirine 100 mg tablet S:1x1"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="8"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                                <real key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <segue destination="Qw9-SI-1V2" kind="show" id="6RC-dA-vnA"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="5VW-Tf-a4w" secondAttribute="trailing" constant="8" id="1ra-nR-GLy"/>
+                                                    <constraint firstAttribute="trailing" secondItem="41I-cy-gEL" secondAttribute="trailing" constant="8" id="1vy-TM-FeB"/>
+                                                    <constraint firstItem="65l-Gy-2lV" firstAttribute="top" secondItem="41I-cy-gEL" secondAttribute="bottom" constant="8" id="GLR-DN-rpo"/>
+                                                    <constraint firstItem="41I-cy-gEL" firstAttribute="leading" secondItem="pKh-V9-wkr" secondAttribute="leading" constant="8" id="IPE-tc-aG5"/>
+                                                    <constraint firstItem="5VW-Tf-a4w" firstAttribute="leading" secondItem="pKh-V9-wkr" secondAttribute="leading" constant="8" id="Sdz-5p-LnN"/>
+                                                    <constraint firstAttribute="trailing" secondItem="65l-Gy-2lV" secondAttribute="trailing" constant="8" id="g33-Do-bv4"/>
+                                                    <constraint firstItem="65l-Gy-2lV" firstAttribute="leading" secondItem="pKh-V9-wkr" secondAttribute="leading" constant="8" id="gUK-36-PSG"/>
+                                                    <constraint firstItem="5VW-Tf-a4w" firstAttribute="top" secondItem="pKh-V9-wkr" secondAttribute="top" constant="8" id="hFf-fx-FIz"/>
+                                                    <constraint firstItem="41I-cy-gEL" firstAttribute="top" secondItem="5VW-Tf-a4w" secondAttribute="bottom" constant="16" id="hsf-A1-eek"/>
+                                                    <constraint firstAttribute="height" constant="133" id="qlJ-j3-TsQ"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWith">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Lh-e3-TeH">
+                                                <rect key="frame" x="8" y="252" width="304" height="406"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="406" id="nAY-1m-3dA"/>
+                                                </constraints>
+                                                <string key="text">TANI:
+
+EKG kesinlikle çekilmelidir.
+
+Hedef kalp hızı istrahatte 70-90 arası , eforda 95-110 arası olmalıdır.
+
+• Çarpıntı (sıklıkla olur),
+• Enerji kaybı ve yorgunluk,
+• Sersemlik hissi, bayılacak gibi olma veya baş dönmesi,
+• Göğüste rahatsızlık hissi (ağrı, basınç veya huzursuzluk),
+• Nefes darlığı (günlük aktivitelerle hissedilen nefes darlığı)
+• Atriyal fibrilasyon bazen hiç bir belirti vermeyebilir. Doktor nabız sayarken veya kalp dinlerken, düzensiz ve hızlı kalp atımını tesadüfen teşhis edebilir.
+• Hastaların bir kısmı, göğüslerinde hızla kanat çırpan bir kuş varmış gibi bir histen söz ederler. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lh5-iK-cGu">
+                                                <rect key="frame" x="8" y="666" width="304" height="86"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="86" id="OZc-m8-GYl"/>
+                                                </constraints>
+                                                <string key="text">AYIRICI TANI:
+
+• Mitral daralma,
+• Hipertiroidi</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="atriyal_fibrilasyon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qNa-u3-rO2">
+                                                <rect key="frame" x="8" y="760" width="304" height="232"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="232" id="eWz-zH-Wo9"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="lh5-iK-cGu" firstAttribute="leading" secondItem="gm4-c3-Lgd" secondAttribute="leading" constant="8" id="0bf-cI-4pg"/>
+                                            <constraint firstItem="pKh-V9-wkr" firstAttribute="leading" secondItem="gm4-c3-Lgd" secondAttribute="leading" constant="8" id="1L0-gF-AzB"/>
+                                            <constraint firstItem="qNa-u3-rO2" firstAttribute="top" secondItem="lh5-iK-cGu" secondAttribute="bottom" constant="8" id="4nG-Ar-Aa1"/>
+                                            <constraint firstItem="0Lh-e3-TeH" firstAttribute="leading" secondItem="gm4-c3-Lgd" secondAttribute="leading" constant="8" id="5qH-NS-q0m"/>
+                                            <constraint firstItem="MUY-8M-dj1" firstAttribute="top" secondItem="gm4-c3-Lgd" secondAttribute="top" constant="8" id="AVa-C4-SsI"/>
+                                            <constraint firstAttribute="trailing" secondItem="0Lh-e3-TeH" secondAttribute="trailing" constant="8" id="FNi-TR-iaz"/>
+                                            <constraint firstAttribute="trailing" secondItem="lh5-iK-cGu" secondAttribute="trailing" constant="8" id="Q3A-G0-I1x"/>
+                                            <constraint firstAttribute="trailing" secondItem="qNa-u3-rO2" secondAttribute="trailing" constant="8" id="Q8W-AI-w3B"/>
+                                            <constraint firstItem="qNa-u3-rO2" firstAttribute="leading" secondItem="gm4-c3-Lgd" secondAttribute="leading" constant="8" id="USa-1F-GuZ"/>
+                                            <constraint firstItem="MUY-8M-dj1" firstAttribute="leading" secondItem="gm4-c3-Lgd" secondAttribute="leading" constant="8" id="VWN-mR-pOB"/>
+                                            <constraint firstAttribute="trailing" secondItem="MUY-8M-dj1" secondAttribute="trailing" constant="8" id="aCL-Le-JLM"/>
+                                            <constraint firstAttribute="trailing" secondItem="pKh-V9-wkr" secondAttribute="trailing" constant="8" id="ey6-hr-hut"/>
+                                            <constraint firstItem="pKh-V9-wkr" firstAttribute="top" secondItem="MUY-8M-dj1" secondAttribute="bottom" constant="8" id="pEF-cl-5rq"/>
+                                            <constraint firstAttribute="height" constant="1000" id="qta-TB-By1"/>
+                                            <constraint firstItem="lh5-iK-cGu" firstAttribute="top" secondItem="0Lh-e3-TeH" secondAttribute="bottom" constant="8" id="vnE-to-V6R"/>
+                                            <constraint firstItem="0Lh-e3-TeH" firstAttribute="top" secondItem="pKh-V9-wkr" secondAttribute="bottom" constant="8" id="yet-O7-NK8"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gm4-c3-Lgd" secondAttribute="trailing" id="3iN-jO-PrH"/>
+                                    <constraint firstItem="gm4-c3-Lgd" firstAttribute="leading" secondItem="UKF-MV-zuZ" secondAttribute="leading" id="7A7-ef-bBO"/>
+                                    <constraint firstAttribute="bottom" secondItem="gm4-c3-Lgd" secondAttribute="bottom" id="ImH-pb-Z2m"/>
+                                    <constraint firstItem="gm4-c3-Lgd" firstAttribute="top" secondItem="UKF-MV-zuZ" secondAttribute="top" id="tQL-aO-S7j"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gm4-c3-Lgd" firstAttribute="width" secondItem="LI2-Lf-b6o" secondAttribute="width" id="LZz-xK-Zmk"/>
+                            <constraint firstItem="UKF-MV-zuZ" firstAttribute="top" secondItem="LI2-Lf-b6o" secondAttribute="top" id="Sjj-rt-Jwl"/>
+                            <constraint firstItem="BTm-Xy-cER" firstAttribute="top" secondItem="UKF-MV-zuZ" secondAttribute="bottom" id="Y8z-yQ-XGp"/>
+                            <constraint firstItem="UKF-MV-zuZ" firstAttribute="leading" secondItem="LI2-Lf-b6o" secondAttribute="leading" id="rbT-t2-tOb"/>
+                            <constraint firstAttribute="trailing" secondItem="UKF-MV-zuZ" secondAttribute="trailing" id="xtN-VP-3SM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Atrial  Fibrilasyon" prompt="ReçeteA 7/24" id="jNv-fv-XQZ">
+                        <barButtonItem key="backBarButtonItem" title="GERİ" id="1xG-LL-8Ht"/>
+                    </navigationItem>
+                    <size key="freeformSize" width="320" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v0N-aL-2Lq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1001.25" y="141.25"/>
+        </scene>
+        <!--Veramapil-->
+        <scene sceneID="8Gb-3h-1F3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Veramapil" id="d2X-xm-YZZ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="obl-dO-hWw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1595" y="68"/>
+        </scene>
+        <!--Asetil-Salisik-Asit-->
+        <scene sceneID="yEc-tg-DJO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Asetil-Salisik-Asit" id="Qw9-SI-1V2" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yrj-eT-PlI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1640" y="204"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="o0e-OD-UUD">
+            <objects>
+                <navigationController id="UOG-N3-438" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rRN-f4-zMp">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Sjr-B7-k87" kind="relationship" relationship="rootViewController" id="JFV-Bo-M6P"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5j2-vT-JzD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34" y="106"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="atriyal_fibrilasyon-min.jpg" width="1000" height="255"/>
+        <image name="atriyal_fibrilasyon.jpg" width="800" height="364"/>
+    </resources>
+</document>
